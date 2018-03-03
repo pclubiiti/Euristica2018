@@ -1,69 +1,80 @@
 <!DOCTYPE HTML>
-<!--
-	Epilogue by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
-	<head>
-		<title>Epilogue by TEMPLATED</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
 
-		<!-- Header -->
-			<header id="header" class="alt">
-				<div class="inner">
-					<h1>{{title}}</h1>
-					<p>{{subtitle}}</p>
+<head>
+	<title>EURISTICA 2018</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header" class="alt">
+		<div class="inner">
+			<h1>{{title}}</h1>
+			<p>{{subtitle}}</p>
+		</div>
+	</header>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Banner -->
+		<section id="intro" class="main">
+			<span class="icon fa-diamond major"></span>
+			<h2>{{title}}</h2>
+			<p>{{subtitle}}</p>
+			<ul class="actions">
+				<li>
+					<a href="#" class="button big">Learn More</a>
+				</li>
+			</ul>
+		</section>
+
+		<!-- Items -->
+		<section id="events" class="main items">
+
+			<article class="item" v-for="(item,i) in list">
+				<header>
+					<a href="#">
+						<img :src='item.src' alt="" />
+					</a>
+					<h3>{{item.title}}</h3>
+				</header>
+				<p>
+					<strong>{{item.date}}</strong>
+					<br> {{item.content}}
+				</p>
+				<ul class="actions">
+					<li>
+						<a @click="modal(i)" class="button">More</a>
+					</li>
+				</ul>
+				<div :id="'modal'+i" class="modal">
+					<h2>
+						<a>{{item.title}}</a>
+					</h2>
+					<p>{{item.longContent}}</p>
 				</div>
-			</header>
+			</article>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+		</section>
 
-				<!-- Banner -->
-					<section id="intro" class="main">
-						<span class="icon fa-diamond major"></span>
-						<h2>{{title}}</h2>
-						<p>{{subtitle}}</p>
-						<ul class="actions">
-							<li><a href="#" class="button big">Learn More</a></li>
-						</ul>
-					</section>
+		<!-- CTA -->
+		<section id="cta" class="main special">
+			<h2>{{title}}</h2>
+			<p>{{subtitle}}</p>
+			<ul class="actions">
+				<li>
+					<a href="#" class="button big">Get Started</a>
+				</li>
+			</ul>
+		</section>
 
-				<!-- Items -->
-					<section id="events" class="main items">
-
-						<article class="item" v-for="item in list">
-							<header>
-								<a href="#"><img :src='item.src' alt="" /></a>
-								<h3>{{item.title}}</h3>
-							</header>
-							<p>
-								<strong>{{item.date}}</strong><br>
-								{{item.content}}
-							</p>
-							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</article>
-
-					</section>
-
-				<!-- CTA -->
-					<section id="cta" class="main special">
-						<h2>{{title}}</h2>
-						<p>{{subtitle}}</p>
-						<ul class="actions">
-							<li><a href="#" class="button big">Get Started</a></li>
-						</ul>
-					</section>
-
-				<!-- Main -->
-				<!--
+		<!-- Main -->
+		<!--
 					<section id="main" class="main">
 						<header>
 							<h2>Lorem ipsum dolor</h2>
@@ -72,23 +83,30 @@
 					</section>
 				-->
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li v-for="item in list">
-								<a href="#" :class="item.class"><span class="label">{{item.tag}}</span></a></li>
-						</ul>
-						<p class="copyright">&copy; {{subtitle}}</p>
-					</footer>
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li v-for="item in list">
+					<a href="#" :class="item.class">
+						<span class="label">{{item.tag}}</span>
+					</a>
+				</li>
+			</ul>
+			<p class="copyright">&copy; {{subtitle}}</p>
+		</footer>
 
-			</div>
+	</div>
 
-		<!-- Scripts -->
-			<script type="text/javascript" src="assets/js/vue.js"></script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	<!-- Scripts -->
+	<script type="text/javascript" src="assets/js/vue.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-	</body>
+	<!-- jQuery Modal -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</body>
+
 </html>
