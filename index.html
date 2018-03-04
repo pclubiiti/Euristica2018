@@ -26,11 +26,6 @@
 			<span class="icon fa-diamond major"></span>
 			<h2>{{title}}</h2>
 			<p>{{subtitle}}</p>
-			<ul class="actions">
-				<li>
-					<a href="#" class="button big">Learn More</a>
-				</li>
-			</ul>
 		</section>
 
 		<!-- Items -->
@@ -51,6 +46,9 @@
 					<li>
 						<a @click="modal(i)" class="button">More</a>
 					</li>
+					<li>
+						<a href="#" class="button">Register</a>
+					</li>
 				</ul>
 				<div :id="'modal'+i" class="modal">
 					<h2>
@@ -62,16 +60,7 @@
 
 		</section>
 
-		<!-- CTA -->
-		<section id="cta" class="main special">
-			<h2>{{title}}</h2>
-			<p>{{subtitle}}</p>
-			<ul class="actions">
-				<li>
-					<a href="#" class="button big">Get Started</a>
-				</li>
-			</ul>
-		</section>
+		
 
 		<!-- Main -->
 		<!--
@@ -87,7 +76,7 @@
 		<footer id="footer">
 			<ul class="icons">
 				<li v-for="item in list">
-					<a href="#" :class="item.class">
+					<a :href="item.link" :class="item.class" target="_blank">
 						<span class="label">{{item.tag}}</span>
 					</a>
 				</li>

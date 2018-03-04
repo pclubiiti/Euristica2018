@@ -130,42 +130,31 @@ var events = new Vue({
   }
 })
 
-
-var cta = new Vue({
-  el: '#cta',
-  data: {
-    title: 'Register Now',
-    subtitle: `Phasellus ac augue ac magna auctor tempus proin
-    accumsan lacus a nibh commodo in pellentesque dui
-    in hac habitasse platea dictumst.`,
-  }
-})
-
-
 var footer = new Vue({
   el: '#footer',
   data: {
-    subtitle: 'The programming club, IIT Indore',
+    subtitle: 'The Programming Club, IIT Indore',
     list: [
       {
-        class: 'icon fa-twitter',
-        tag: 'Twitter',
+        class: 'icon fa-link',
+        tag: 'The Programming Club',
+        link:'http://pclubiiti.github.io/',
       },
       {
         class: 'icon fa-facebook',
         tag: 'Facebook',
+        link:'https://www.facebook.com/pclubiiti/',
       },
       {
-        class: 'icon fa-instagram',
-        tag: 'Instagram',
+        class: 'icon fa-github',
+        tag: 'Github',
+        link:'https://github.com/pclubiiti',
       },
-      {
-        class: 'icon fa-linkedin',
-        tag: 'LinkedIn',
-      },
+      
       {
         class: 'icon fa-envelope',
         tag: 'Email',
+        link:'mailto:progclub@iiti.ac.in',
       },
     ]
   }
