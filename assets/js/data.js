@@ -27,7 +27,7 @@ var events = new Vue({
       title: "Divide By Zero",
       src: "images/dbz.jpg",
       date: "12th March",
-      register:"#",
+      register: "#",
       content: `
              It is a short-duration (2.5 hours)
 individual competitive programming
@@ -46,7 +46,7 @@ over the world.
       title: "Hackathon",
       src: "images/hackathon.jpg",
       date: "13th March",
-      register:"#",
+      register: "#",
       content: `Hackathon is a team development event. The duration will be 24 to 48 hours.
                     `,
       longContent: `
@@ -62,34 +62,37 @@ coming up with innovative solutions for the given problems. Usage of open source
 modules will be allowed (with proper attribution).
 The scoring will be based on the quality and applicability of end product. Products with
 future development scope will also be considered.
-Timeline for the event shall be as follows:
-1. Idea Generation Phase​: Teams are asked to submit their detailed ideas. They
-need to mention how their ideas are better than the current available systems.
-2. Development Phase​: The teams will code the application. This will be the major
+Timeline for the event shall be as follows:<br>
+<ol>
+<li> <b> Idea Generation Phase​</b>: Teams are asked to submit their detailed ideas. They
+need to mention how their ideas are better than the current available systems.</li>
+<li> <b> Development Phase​</b>: The teams will code the application. This will be the major
 part of the event, the teams will have to implement the complete application in
-this time period.
-3. Presentation Phase: The teams will present their projects to the jury. If they
+this time period.</li>
+<li> <b> Presentation Phase</b>: The teams will present their projects to the jury. If they
 clear the preliminary round they will be asked to present their application in front
 of the audience and the jury. Their work will be evaluated on the basis of their
-idea, code, tech-stack and presentation quality.
+idea, code, tech-stack and presentation quality.</li>
+</ol>
 Teams will be given time slots in which they can discuss their projects and issues with
 mentors who will be available during the event. They are allowed to ask any question
 relevant to the project to the mentors and they will try their best to help the students out
 with their issue.
+
       `
     },
     {
       title: "Capture The Flag",
       src: "images/ctf.jpg",
       date: "14th March",
-      register:"#",
+      register: "#",
       content: `A special kind of cybersecurity competition designed to challenge its participants to solve
 computersecurity problems and/or capture and defend computersystems.
                     `,
       longContent: `
             Our CTF will have be an online jeopardy CTF. The duration of the event will be of 24-48
 hours, and we expect a participation of 500+ teams, with each team consisting of 4
-members. The CTF will have 15 problems.
+members. The CTF will have 15 problems.<br>
 In a jeopardy CTF format, teams must complete as many cybersecurity challenges as
 they can from a given selection, testing their skills and knowledge on a diverse range of
 computer security categories in novel and creative ways. Typical tasks are related to
@@ -102,23 +105,25 @@ rewarded.Participants needs to submit the correct flag (piece of text) in order 
       title: "Machine Learning Codesprint",
       src: "images/ml.jpg",
       date: "15th March",
-      register:"#",
+      register: "#",
       content: `“Information is the oil of the 21st century, and analytics is the combustion engine.”`,
       longContent: `
            Artificial intelligence and analysis will shape our future more powerfully than any other
 innovation this century. Machine learning, on the other hand, is a form of artificial
-intelligence in which the computer learns for itself how to complete a task​.
+intelligence in which<b> the computer learns for itself how to complete a task​.</b><br>
 From TD-Gammon and DeepBlue to Watson and Alexa, machines are eventually
-becoming an integral part of our lives.
+becoming an integral part of our lives.<br>
 This codesprint aims to give the participants the thrilling experience of programming a
-computer to learn.
+computer to learn.<br>
 The contest will be as follows -
-1) Training Phase - You will be given the training data 24 Hrs before the Evaluation
-Phase.
+<ol>
+<li><b> Training Phase</b> - You will be given the training data 24 Hrs before the Evaluation
+Phase.</li>
 You will use this data to train your computer, as well as you can.
-2) Evaluation Phase - Your model will be evaluated on your accuracy on the test
+<li><b> Evaluation Phase</b> - Your model will be evaluated on your accuracy on the test
 data (separate from the training data). Some extra points might be awarded
-based on uniqueness of approach.
+based on uniqueness of approach.</li>
+</ol>
 We are expecting a participation of 500+ people.
       `
     },
@@ -126,7 +131,7 @@ We are expecting a participation of 500+ people.
       title: "Code Mélange III",
       src: "images/code_melange.jpg",
       date: "16th March",
-      register:"#",
+      register: "#",
       content: `A long algorithmic programming
                 contest that will push your brain to
                 the limit!
@@ -138,7 +143,7 @@ participation of 500+ students from
 the past two years and are
 expecting more this time.
 The contest will span across a
-duration of 48-72 hrs​, having 10-12
+duration of <b>48-72 hrs</b> ​, having 10-12
 problems with varying levels of
 difficulty and implementations, targeting everyone with interest for programming.
       `
@@ -147,7 +152,7 @@ difficulty and implementations, targeting everyone with interest for programming
       title: "Code Golf 4.0",
       src: "images/code_golf.jpg",
       date: "17th March",
-      register:"#",
+      register: "#",
       content: `Code Golf is a unique competitive coding challenge in which “Less is More​"​.`,
       longContent: `
             The scoring is based on the
@@ -168,7 +173,7 @@ performing well and coming out at the top.
       title: "Surprise Language IV",
       src: "images/surpise_language.jpg",
       date: "18th March",
-      register:"#",
+      register: "#",
       content: `‘Coz who doesn’t like surprises?`,
       longContent: `
             Are you ready for something challenging?
@@ -195,7 +200,7 @@ wall and tearing off your hair what you love? If yes, then this contest is defin
            Presenting Hack the code! A 3 hour contest where you’ll be provided problems,
 alongside it’s solution, and you’ll have to find a failing case on the solution. You will be
 given 10 solutions (which can be in any language) along with their respective problem
-descriptions. Just output any test case which will fail the code. So, are you ready?
+descriptions. Just output any test case which will fail the code. So, are you ready?<br>
 Scoring is based on number of problems successfully hacked. Ties will be broken on
 the basis of total time taken in hacks.
       `

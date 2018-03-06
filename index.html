@@ -5,6 +5,8 @@
 	<title>EURISTICA 2018</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- jquery modal -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
@@ -55,7 +57,7 @@
 					<h2>
 						<a>{{item.title}}</a>
 					</h2>
-					<p>{{item.longContent}}</p>
+					<p v-html="item.longContent"></p>
 				</div>
 			</article>
 
@@ -97,7 +99,6 @@
 
 	<!-- jQuery Modal -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </body>
 
 </html>

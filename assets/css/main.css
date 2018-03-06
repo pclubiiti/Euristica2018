@@ -1544,3 +1544,22 @@
 				}
 
 		}
+
+
+/* custom css */
+.modal{
+	max-width: unset;
+}
+
+.modal>p{
+	font-weight: 500;
+} 
+b{
+	font-weight: 900;
+}
+
+@media screen and (max-width: 736px){
+	.modal{
+		width:100%;
+	}
+}
