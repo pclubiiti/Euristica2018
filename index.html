@@ -47,7 +47,7 @@
 						<a @click="modal(i)" class="button">More</a>
 					</li>
 					<li>
-						<a href="#" class="button">Register</a>
+						<a :href='item.register' class="button">Register</a>
 					</li>
 				</ul>
 				<div :id="'modal'+i" class="modal">
@@ -60,7 +60,7 @@
 
 		</section>
 
-		
+
 
 		<!-- Main -->
 		<!--

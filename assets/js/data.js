@@ -27,6 +27,7 @@ var events = new Vue({
       title: "Divide By Zero",
       src: "images/pic01.jpg",
       date: "12th March",
+      register:"#",
       content: `
              It is a short-duration (2.5 hours) individual competitive programming contest. The contest will consist of 7-8 problems and
             is meant to test the algorithmic and implementation skills of the contestants along with
@@ -43,6 +44,7 @@ var events = new Vue({
       title: "Hackathon",
       src: "images/pic02.jpg",
       date: "13th March",
+      register:"#",
       content: `Hackathon is a team development event. The duration will be 24 to 48 hours. Multiple
                     problem statements will be provided at the beginning of the event. The contestants will
                     get the entire time in which they have to select one of the problem statements, finalise
@@ -59,6 +61,7 @@ var events = new Vue({
       title: "Capture The Flag",
       src: "images/pic03.jpg",
       date: "14th March",
+      register:"#",
       content: `A special kind of cybersecurity competition designed to challenge its participants to solve
                     computer security problems and/or capture and defend computer systems.
                     `,
@@ -73,6 +76,7 @@ var events = new Vue({
       title: "Machine Learning Codesprint",
       src: "images/pic01.jpg",
       date: "15th March",
+      register:"#",
       content: `“Information is the oil of the 21st century, and analytics is the combustion engine.”`,
       longContent: `
             It is a short-duration (2.5 hours) individual competitive programming contest. The contest will consist of 7-8 problems and
@@ -85,6 +89,7 @@ var events = new Vue({
       title: "Code Mélange III",
       src: "images/pic01.jpg",
       date: "16th March",
+      register:"#",
       content: `A long algorithmic programming
                 contest that will push your brain to
                 the limit!
@@ -100,6 +105,7 @@ var events = new Vue({
       title: "Code Golf 4.0",
       src: "images/pic01.jpg",
       date: "17th March",
+      register:"#",
       content: `Code Golf is a unique competitive coding challenge in which “Less is More​"​.`,
       longContent: `
             It is a short-duration (2.5 hours) individual competitive programming contest. The contest will consist of 7-8 problems and
@@ -112,6 +118,7 @@ var events = new Vue({
       title: "Surprise Language IV",
       src: "images/pic01.jpg",
       date: "18th March",
+      register:"#",
       content: `‘Coz who doesn’t like surprises?`,
       longContent: `
             It is a short-duration (2.5 hours) individual competitive programming contest. The contest will consist of 7-8 problems and
@@ -150,7 +157,7 @@ var footer = new Vue({
         tag: 'Github',
         link:'https://github.com/pclubiiti',
       },
-      
+
       {
         class: 'icon fa-envelope',
         tag: 'Email',
