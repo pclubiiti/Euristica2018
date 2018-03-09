@@ -1498,10 +1498,12 @@ b{
 	.modal{
 		width:100%;
 	}
+	input[type="submit"]{
+		width: 100%;
+	}
 }
 
 .form-group {
-	width:100%;
 	margin: 1em;
 }
 
@@ -1509,6 +1511,20 @@ b{
 	text-align: left;
 	margin: 0;
 }
+.sponsors-container{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sponsor>img{
+	width: 200px;
+}
+
+.sponsor{
+	padding: 20px;
+}
+
 
 
 /* #region checkmark*/

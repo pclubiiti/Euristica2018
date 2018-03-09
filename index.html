@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body>
+<body v-cloak>
 
 	<!-- Header -->
 	<header id="header" class="alt">
@@ -65,8 +65,16 @@
 
 		<!-- Banner -->
 		<section id="sponsors" class="main intro">
-			<span class="icon fa-diamond major"></span>
-			
+			<!-- <span class="icon fa-diamond major"></span> -->
+			<h2>Sponsors</h2>
+			<hr>
+			<div class="sponsors-container">
+				<div class="sponsor" v-for="s in sponsors">
+					<h4>{{s.top}}</h4>
+					<img :src="s.logo" alt="">
+				</div>
+			</div>
+
 		</section>
 
 

@@ -276,6 +276,23 @@ var footer = new Vue({
 var sponsors = new Vue({
   el: '#sponsors',
   data: {
-    title:'Sponsors'
+    sponsors: [
+      {
+        top: "Gold Sponsor",
+        logo: "https://www.arcesium.com/images/Logo.png"
+      },
+      {
+        top: "Platform Sponsor",
+        logo: "https://hackerearth.global.ssl.fastly.net/static/hackerearth/images/logo/HE_logo.svg"
+      },
+      {
+        top: "Platform Sponsor",
+        logo: "https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.png"
+      },
+      {
+        top: "Platform Sponsor",
+        logo: "http://st.codeforces.com/s/24151/images/codeforces-logo-with-telegram.png"
+      }
+    ]
   }
 })

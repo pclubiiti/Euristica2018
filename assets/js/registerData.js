@@ -10,11 +10,18 @@ var form = new Vue({
   el: "#regform",
   methods: {
     onSubmit: function () {
+      var data = $("#regform").serializeArray();
+      if (data.length <= 4) {
+        $("#incompleteModal").modal({
+          fadeDuration: 100
+        });
+        return;
+      }
       var jqxhr = $.ajax({
         url: "https://script.google.com/macros/s/AKfycbx6NtK5ND2H6AMWmEkX03k2ebydLm1idQRBu4NNaJxt5RK3Qpk/exec",
         method: "GET",
         dataType: "json",
-        data: $("#regform").serializeArray()
+        data: data
       }).success(
         $('#successModal').modal({
           fadeDuration: 300,
