@@ -272,3 +272,10 @@ var footer = new Vue({
     ]
   }
 })
+
+var sponsors = new Vue({
+  el: '#sponsors',
+  data: {
+    title:'Sponsors'
+  }
+})

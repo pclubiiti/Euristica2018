@@ -1,47 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+
 <head>
-    <title>Register</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EURISTICA 2018</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- jquery modal -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
+
 <body>
-    <form id="regform">
-        <form id="regform" method="GET" action="">
-        <label for="Name">Name</label>
-        <input type="text" name="Name">
 
-        <label for="Contact">Contact</label>
-        <input type="text" name="Contact">
+	<!-- Header -->
+	<header id="header" class="alt">
+		<div class="inner">
+			<h1>{{title}}</h1>
+			<p>{{subtitle}}</p>
+		</div>
+	</header>
 
-        <label for="College">College</label>
-        <input type="text" name="College">
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-        <label for="Email">Email</label>
-        <input type="email" name="Email">
+		<!-- Banner -->
+		<section id="intro" class="intro main">
+				<form id="regform" method="GET" action="">
+					<div class="form-group">
+						<label for="Name" class="form-label">Name</label>
+						<input type="text" class="form-input" name="Name">
+					</div>
 
-        <input type="checkbox" name="Divide By Zero" value="1">Divide By Zero
-        <input type="checkbox" name="Hackathon" value="1">Hackathon
-        <input type="checkbox" name="Capture the flag" value="1">Capture the Flag
-        <input type="checkbox" name="Machine Learning Codesprint" value="1">Machine Learning Codesprint
-        <input type="checkbox" name="Code Melange III" value="1">Code Mélange III
-        <input type="checkbox" name="Code Golf 4.0" value="1">Code Golf 4.0
-        <input type="checkbox" name="Surprise Language IV" value="1">Surprise Language IV
-        <input type="checkbox" name="Hack the Code" value="1">Hack the Code
-        <input type="checkbox" name="Fool You!" value="1">Fool You!
-        <input type="checkbox" name="al-Khwarizmi 2.0" value="1">al-Khwarizmi 2.0 7
+					<div class="form-group">
+						<label for="Contact" class="form-label">Contact</label>
+						<input type="text" class="form-input" name="Contact">
+					</div>
 
-        <input type="submit" value="Register" id="register">
-    </form>
+					<div class="form-group">
+						<label for="Email" class="form-label">Email</label>
+						<input type="text" class="form-input" name="Email">
+					</div>
 
-    <script type="text/javascript" src="assets/js/vue.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
+					<div class="form-group">
+						<label for="College" class="form-label">College</label>
+						<input type="text" class="form-input" name="College">
+					</div>
+					<div class="form-group">
+						<label for="College" class="form-label">Events</label>
+						<input type="checkbox" name="Divide By Zero" value="1">Divide By Zero
+						<input type="checkbox" name="Hackathon" value="1">Hackathon
+						<input type="checkbox" name="Capture the flag" value="1">Capture the Flag
+						<input type="checkbox" name="Machine Learning Codesprint" value="1">Machine Learning Codesprint
+						<input type="checkbox" name="Code Melange III" value="1">Code Mélange III
+						<input type="checkbox" name="Code Golf 4.0" value="1">Code Golf 4.0
+						<input type="checkbox" name="Surprise Language IV" value="1">Surprise Language IV
+						<input type="checkbox" name="Hack the Code" value="1">Hack the Code
+						<input type="checkbox" name="Fool You!" value="1">Fool You!
+						<input type="checkbox" name="al-Khwarizmi 2.0" value="1">al-Khwarizmi 2.0 7
+					</div>
+
+					<input type="submit" value="Register" id="register">
+				</form>
+		</section>
+
+		<div id="successModal" class="modal">
+			<h2>
+				Congragulations!
+			</h2>
+			<p>
+				Thank you for registering with us. We'll contact you shortly. Happy coding till then !
+			</p>
+		</div>
+		<div id=" " class="modal">
+			<h2>
+				Sorry :(
+			</h2>
+			<p>
+				We have encountered some error, please try again later.
+			</p>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li v-for="item in list">
+					<a :href="item.link" :class="item.class" target="_blank">
+						<span class="label">{{item.tag}}</span>
+					</a>
+				</li>
+			</ul>
+			<p class="copyright">&copy; {{subtitle}}</p>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="assets/js/vue.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/register.js"></script>
+	<script src="assets/js/registerData.js"></script>
+	<script src="assets/js/main.js"></script>
 
+	<!-- jQuery Modal -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </body>
+
 </html>
