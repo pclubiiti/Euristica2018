@@ -25,42 +25,38 @@
 
 		<!-- Banner -->
 		<section id="intro" class="intro main">
-				<form id="regform" method="GET" action="">
-					<div class="form-group">
-						<label for="Name" class="form-label">Name</label>
-						<input type="text" class="form-input" name="Name">
-					</div>
+			<form id="regform" method="GET" action="" @submit.prevent="onSubmit">
+				<div class="form-group">
+					<label for="Name" class="form-label">Name</label>
+					<input required type="text" class="form-input" name="Name">
+				</div>
 
-					<div class="form-group">
-						<label for="Contact" class="form-label">Contact</label>
-						<input type="text" class="form-input" name="Contact">
-					</div>
+				<div class="form-group">
+					<label for="Contact" class="form-label">Contact</label>
+					<input required type="text" class="form-input" name="Contact">
+				</div>
 
-					<div class="form-group">
-						<label for="Email" class="form-label">Email</label>
-						<input type="text" class="form-input" name="Email">
-					</div>
+				<div class="form-group">
+					<label for="Email" class="form-label">Email</label>
+					<input required type="text" class="form-input" name="Email">
+				</div>
 
-					<div class="form-group">
-						<label for="College" class="form-label">College</label>
-						<input type="text" class="form-input" name="College">
-					</div>
-					<div class="form-group">
-						<label for="College" class="form-label">Events</label>
-						<input type="checkbox" name="Divide By Zero" value="1">Divide By Zero
-						<input type="checkbox" name="Hackathon" value="1">Hackathon
-						<input type="checkbox" name="Capture the flag" value="1">Capture the Flag
-						<input type="checkbox" name="Machine Learning Codesprint" value="1">Machine Learning Codesprint
-						<input type="checkbox" name="Code Melange III" value="1">Code Mélange III
-						<input type="checkbox" name="Code Golf 4.0" value="1">Code Golf 4.0
-						<input type="checkbox" name="Surprise Language IV" value="1">Surprise Language IV
-						<input type="checkbox" name="Hack the Code" value="1">Hack the Code
-						<input type="checkbox" name="Fool You!" value="1">Fool You!
-						<input type="checkbox" name="al-Khwarizmi 2.0" value="1">al-Khwarizmi 2.0 7
-					</div>
+				<div class="form-group">
+					<label for="College" class="form-label">College</label>
+					<input required type="text" class="form-input" name="College">
+				</div>
+				<div class="form-group">
+					<label for="College" class="form-label">Events</label>
+					<br>
+					<label class="container" v-for="event in events">
+						{{event}}
+						<input type="checkbox" :name="event" value="1">
+						<span class="checkmark"></span>
+					</label>
+				</div>
 
-					<input type="submit" value="Register" id="register">
-				</form>
+				<input type="submit" value="Register" id="register">
+			</form>
 		</section>
 
 		<div id="successModal" class="modal">
@@ -71,7 +67,7 @@
 				Thank you for registering with us. We'll contact you shortly. Happy coding till then !
 			</p>
 		</div>
-		<div id=" " class="modal">
+		<div id="errorModal" class="modal">
 			<h2>
 				Sorry :(
 			</h2>

@@ -1,26 +1,3 @@
-var $form = $('form#regform');
-
-$('#register').on('click', function(e) {
-  e.preventDefault();
-  var jqxhr = $.ajax({
-    url: "https://script.google.com/macros/s/AKfycbx6NtK5ND2H6AMWmEkX03k2ebydLm1idQRBu4NNaJxt5RK3Qpk/exec",
-    method: "GET",
-    dataType: "json",
-    data: $form.serializeArray()
-  }).success(
-    $('#successModal').modal({
-      fadeDuration: 300,
-    })
-  ).fail(function(err) {
-    $('#errorModal').modal({
-      fadeDuration: 300
-    });
-  });
-  window.location = "/";
-
-})
-
-
 var app = new Vue({
   el: '#header',
   data: {
@@ -29,6 +6,41 @@ var app = new Vue({
   }
 })
 
+var form = new Vue({
+  el: "#regform",
+  methods: {
+    onSubmit: function () {
+      var jqxhr = $.ajax({
+        url: "https://script.google.com/macros/s/AKfycbx6NtK5ND2H6AMWmEkX03k2ebydLm1idQRBu4NNaJxt5RK3Qpk/exec",
+        method: "GET",
+        dataType: "json",
+        data: $("#regform").serializeArray()
+      }).success(
+        $('#successModal').modal({
+          fadeDuration: 300,
+        })
+      ).fail(function (err) {
+        $('#errorModal').modal({
+          fadeDuration: 300
+        });
+      });
+    }
+  },
+  data: {
+    events: [
+      'Divide By Zero',
+      'Hackathon',
+      'Capture the Flag',
+      'Machine Learning Codesprint',
+      'Code Mélange III',
+      'Code Golf 4.0',
+      'Surprise Language IV',
+      'Hack the Code',
+      'Fool You!',
+      'al-Khwarizmi 2.0 7'
+    ]
+  }
+})
 
 var footer = new Vue({
   el: '#footer',
