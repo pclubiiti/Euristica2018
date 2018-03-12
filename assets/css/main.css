@@ -1501,6 +1501,9 @@ b{
 	input[type="submit"]{
 		width: 100%;
 	}
+	.button{
+		width: 100%;
+	}
 }
 
 .form-group {
@@ -1596,3 +1599,19 @@ b{
     transform: rotate(45deg);
 }
 /* #endregion */
+
+.icons{
+	font-size: x-large;
+}
+
+header>.inner>h1{
+	    font-family: 'Audiowide', cursive !important;
+}
+header>.inner>p{
+	font-family: 'Audiowide', cursive;
+	letter-spacing: inherit !important;
+    font-weight: 900;
+}
+.small-image{
+	width: 150px !important;
+}

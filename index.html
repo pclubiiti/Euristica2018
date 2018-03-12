@@ -8,6 +8,8 @@
 	<!-- jquery modal -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 </head>
 
 <body v-cloak>
@@ -26,7 +28,9 @@
 		<!-- Banner -->
 		<section id="intro" class="intro main">
 			<span class="icon fa-diamond major"></span>
-			<h2>{{title}}</h2>
+			<h2>
+				<a href="https://pclubiiti.github.io/" target="_blank"> The Programming Club, IIT Indore</a>
+			</h2>
 			<p>{{subtitle}}</p>
 			<a href="https://goo.gl/forms/Fnmn2G4jd1ZiMKrl1" class="button" target="_blank">Register Now</a>
 		</section>
@@ -36,7 +40,7 @@
 
 			<article class="item" v-for="(item,i) in list">
 				<header>
-					<a href="#">
+					<a @click="modal(i)">
 						<img style="width:100%;" :src='item.src' alt="" />
 					</a>
 
@@ -67,9 +71,20 @@
 			<h2>Sponsors</h2>
 			<hr>
 			<div class="sponsors-container">
+				<div class="sponsor">
+					<h4>GOLD SPONSOR</h4>
+					<img src="https://www.arcesium.com/images/Logo.png" alt="">
+				</div>
+			</div>
+			<div class="sponsor-container">
+				<div class="sponsor">
+					<h4>PLATFORM SPONSOR</h4>
+				</div>
+			</div>
+			<div class="sponsors-container">
+
 				<div class="sponsor" v-for="s in sponsors">
-					<h4>{{s.top}}</h4>
-					<img :src="s.logo" alt="">
+					<img :src="s.logo" class="small-image" alt="">
 				</div>
 			</div>
 

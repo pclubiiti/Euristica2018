@@ -9,7 +9,6 @@ var app = new Vue({
 var intro = new Vue({
   el: '#intro',
   data: {
-    title: 'About Us',
     subtitle: `This generation has seen great programmers like Linus Torvalds and Jeff Dean.
 Talented and hardworking programmers are rising all around the globe. To foster this
         amazing skill and culture, the Department of Computer Science and Engineering, IIT
@@ -279,20 +278,15 @@ var sponsors = new Vue({
   data: {
     sponsors: [
       {
-        top: "Gold Sponsor",
-        logo: "https://www.arcesium.com/images/Logo.png"
-      },
-      {
-        top: "Platform Sponsor",
         logo: "https://hackerearth.global.ssl.fastly.net/static/hackerearth/images/logo/HE_logo.svg"
       },
       {
-        top: "Platform Sponsor",
         logo: "https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.png"
       },
       {
-        top: "Platform Sponsor",
         logo: "http://st.codeforces.com/s/24151/images/codeforces-logo-with-telegram.png"
+      }, {
+        logo: "https://hrcdn.net/hackerrank/assets/brand/hr_logo_new_word-52db4dcdc76b31be86456c77b55a7396.png"
       }
     ]
   }
