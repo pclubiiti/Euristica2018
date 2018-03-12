@@ -26,8 +26,7 @@ var events = new Vue({
     list: [{
       title: "Divide By Zero",
       src: "images/dbz.jpg",
-      date: "12th March",
-      register: "#",
+      date: "8th April",
       content: `
              It is a short-duration (2.5 hours)
 individual competitive programming
@@ -45,10 +44,8 @@ over the world.
     {
       title: "Hackathon",
       src: "images/hackathon.jpg",
-      date: "13th March",
-      register: "#",
-      content: `Hackathon is a team development event. The duration will be 24 to 48 hours.
-                    `,
+      date: "24th - 25th March",
+      content: `Hackathon is a team development event. The duration will be 24 to 48 hours.`,
       longContent: `
             Hackathon is a team development event. The duration will be 24 to 48 hours. Multiple
 problem statements will be provided at the beginning of the event. The contestants will
@@ -84,8 +81,7 @@ with their issue.
     {
       title: "Capture The Flag",
       src: "images/ctf.jpg",
-      date: "14th March",
-      register: "#",
+      date: "29th March",
       content: `A special kind of cybersecurity competition designed to challenge its participants to solve
 computersecurity problems and/or capture and defend computersystems.
                     `,
@@ -104,8 +100,7 @@ rewarded.Participants needs to submit the correct flag (piece of text) in order 
     {
       title: "Machine Learning Codesprint",
       src: "images/ml.jpg",
-      date: "15th March",
-      register: "#",
+      date: "26th March Onwards...",
       content: `“Information is the oil of the 21st century, and analytics is the combustion engine.”`,
       longContent: `
            Artificial intelligence and analysis will shape our future more powerfully than any other
@@ -130,8 +125,7 @@ We are expecting a participation of 500+ people.
     {
       title: "Code Mélange III",
       src: "images/code_melange.jpg",
-      date: "16th March",
-      register: "#",
+      date: "30th March - 1st April",
       content: `A long algorithmic programming
                 contest that will push your brain to
                 the limit!
@@ -151,8 +145,7 @@ difficulty and implementations, targeting everyone with interest for programming
     {
       title: "Code Golf 4.0",
       src: "images/code_golf.jpg",
-      date: "17th March",
-      register: "#",
+      date: "26th March",
       content: `Code Golf is a unique competitive coding challenge in which “Less is More​"​.`,
       longContent: `
             The scoring is based on the
@@ -172,8 +165,7 @@ performing well and coming out at the top.
     {
       title: "Surprise Language IV",
       src: "images/surpise_language.jpg",
-      date: "18th March",
-      register: "#",
+      date: "28th March",
       content: `‘Coz who doesn’t like surprises?`,
       longContent: `
             Are you ready for something challenging?
@@ -193,7 +185,7 @@ list of 10 languages 3 days before the contest.
     {
       title: "Hack the Code",
       src: "images/hack_the_code.jpg",
-      date: "23rd March",
+      date: "2nd April",
       content: `Are you a master debugger? Do you love squashing bugs? Is smashing your head on a
 wall and tearing off your hair what you love? If yes, then this contest is definitely for you!`,
       longContent: `
@@ -208,7 +200,7 @@ the basis of total time taken in hacks.
     {
       title: "Fool You!",
       src: "images/fool_you.jpg",
-      date: "21st March",
+      date: "4th April",
       content: `Fool You is a programming event which isfar from the usual ‘serious’ programming contests.`,
       longContent: `
            The unique aspect of this contest which makes it amusing is that it tests the contestants
@@ -222,7 +214,7 @@ spot clues and hints hidden in the questions.
     {
       title: "al-Khwarizmi 2.0",
       src: "images/al_khwarizmi.jpg",
-      date: "21st March",
+      date: "6th April",
       content: `Based on the norms of Project Euler, we invite you to untangle the labyrinthine of
 mathematics.`,
       longContent: `
