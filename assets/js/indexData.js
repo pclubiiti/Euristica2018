@@ -17,6 +17,7 @@ Talented and hardworking programmers are rising all around the globe. To foster 
         We will be conducting a variety of events ranging from Competitive Programming and
         Application Development to Cyber Security and Machine Learning.
         `,
+    link: "https://goo.gl/forms/6XvZX1oed5u8lfxy1"
   }
 })
 

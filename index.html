@@ -28,6 +28,7 @@
 			<span class="icon fa-diamond major"></span>
 			<h2>{{title}}</h2>
 			<p>{{subtitle}}</p>
+			<a href="https://goo.gl/forms/Fnmn2G4jd1ZiMKrl1" class="button" target="_blank">Register Now</a>
 		</section>
 
 		<!-- Items -->
@@ -48,9 +49,6 @@
 				<ul class="actions">
 					<li>
 						<a @click="modal(i)" class="button">More</a>
-					</li>
-					<li>
-						<a :href='item.register' class="button">Register</a>
 					</li>
 				</ul>
 				<div :id="'modal'+i" class="modal">
