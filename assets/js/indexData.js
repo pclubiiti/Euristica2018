@@ -270,14 +270,18 @@ var sponsors = new Vue({
   data: {
     sponsors: [
       {
+        link: 'https://hackerearth.com',
         logo: "https://hackerearth.global.ssl.fastly.net/static/hackerearth/images/logo/HE_logo.svg"
       },
       {
+        link: 'https://codechef.com',
         logo: "https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.png"
       },
       {
+        link: 'http://codeforces.com',
         logo: "http://st.codeforces.com/s/24151/images/codeforces-logo-with-telegram.png"
       }, {
+        link: 'https://hackerrank.com',
         logo: "https://hrcdn.net/hackerrank/assets/brand/hr_logo_new_word-52db4dcdc76b31be86456c77b55a7396.png"
       }
     ]

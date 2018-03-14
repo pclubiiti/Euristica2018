@@ -1615,3 +1615,7 @@ header>.inner>p{
 .small-image{
 	width: 150px !important;
 }
+
+.sponsor>a{
+	border: none;
+}
