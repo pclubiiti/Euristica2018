@@ -1,6 +1,4 @@
-@import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
-
 /*
 	Epilogue by TEMPLATED
 	templated.co @templatedco
@@ -1574,7 +1572,7 @@ b{
 }
 
 header>.inner>h1{
-	    font-family: 'Audiowide', cursive !important;
+	    font-family: 'Blanka-Regular' !important;
 }
 header>.inner>p{
 	font-family: 'Audiowide', cursive;
