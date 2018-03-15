@@ -1588,3 +1588,11 @@ header>.inner>p{
 .sponsor>a{
 	border: none;
 }
+
+video{
+	position: absolute;
+}
+
+#header{
+	overflow: hidden;
+}
