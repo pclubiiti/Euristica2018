@@ -1267,7 +1267,7 @@
 		#header.alt {
 			height: 20em;
 			min-height: 20em;
-			min-height: 75vh;
+			min-height: 100vh;
 		}
 
 
@@ -1595,3 +1595,32 @@ video{
 #header{
 	overflow: hidden;
 }
+
+/* #region bounce  */
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  60% {
+    -webkit-transform: translateY(-7px);
+            transform: translateY(-7px);
+  }
+}
+.scroll-arrow{
+	animation: bounce 2s infinite;
+}
+.footer{
+	z-index: 1;
+	position: absolute;
+	bottom: 10vh;
+}
+/* #endregion */
