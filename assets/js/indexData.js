@@ -212,7 +212,7 @@ spot clues and hints hidden in the questions.
       `
     },
     {
-      title: "al-Khwarizmi 2.0",
+      title: "SOH CAH TOA",
       src: "images/compressed/soh_cah_toa.png",
       date: "6th April",
       content: `Based on the norms of Project Euler, we invite you to untangle the labyrinthine of
@@ -279,7 +279,7 @@ var sponsors = new Vue({
       },
       {
         link: 'http://codeforces.com',
-        logo: "http://st.codeforces.com/s/24151/images/codeforces-logo-with-telegram.png"
+        logo: "/images/cf.png"
       }, {
         link: 'https://hackerrank.com',
         logo: "https://hrcdn.net/hackerrank/assets/brand/hr_logo_new_word-52db4dcdc76b31be86456c77b55a7396.png"
