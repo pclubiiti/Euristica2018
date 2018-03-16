@@ -1462,6 +1462,9 @@ b{
 		width: 100%;
 		margin-bottom: 2em;
 	}
+	header>.overlay>p{
+	padding: 5%;
+}
 }
 
 .form-group {
@@ -1611,7 +1614,7 @@ video{
 .footer{
 	z-index: 1;
 	position: absolute;
-	bottom: 10vh;
+	bottom: 3vh;
 }
 /* #endregion */
 
@@ -1619,7 +1622,8 @@ header>.overlay{
 	position: absolute;
     height: 100%;
     width: 100%;
-    background: black;
+	background: #01004a;
+	text-align: center;
 }
 
 header>.overlay>p{
@@ -1648,4 +1652,27 @@ header>img:hover{
 .footer>a{
 	font-weight: 900;
     font-size: 4em;
+}
+
+article.item{
+	cursor: pointer;
+}
+
+.modal>p>div{
+	    text-align: center;
+    width: 100%;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.ctkm{
+    position: absolute;
+    bottom: 10px;
+	width: 100%;
+	font-size: 0.8em;	
+}
+
+
+a{
+	border: none;
 }

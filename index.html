@@ -15,26 +15,26 @@
 	<!-- font awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- theme color -->
-	<meta name="theme-color" content="#000000" />
+	<meta name="theme-color" content="#8237d0" />
 </head>
 
 <body v-cloak>
 
 	<!-- Header -->
 	<header id="header" class="alt">
-		<video poster="images/final.png" muted autoplay loop no-controls style="height:110vh">
-			<source src="images/final.mp4" type="video/mp4">
+		<video poster="images/final4.png" muted autoplay loop no-controls style="height:110vh">
+			<source src="images/final4.mp4" type="video/mp4">
 		</video>
 
 		<div class="inner">
 			<h1>{{title}}</h1>
 			<p>{{subtitle}}</p>
 			<h2>
-				PRIZES WORTH 3L!
+				PRIZES WORTH ₹300k!
 			</h2>
 		</div>
 		<div class="footer">
-			<a href="#wrapper" class="no-border">
+			<a href='javascript:$(window).scrollTo("#wrapper",500)' class="no-border">
 				<i class="fa fa-angle-down scroll-arrow"></i>
 			</a>
 		</div>
@@ -61,7 +61,11 @@
 							{{item.about}}
 							<br>
 							<br>
-							<span>Click to know more</span>
+							<div class="ctkm">
+								<i>
+									Click to know more
+								</i>
+							</div>
 						</p>
 					</div>
 					<img style="width:100%;" :data-src='item.src' alt="" />
@@ -121,9 +125,26 @@
 			</div>
 			<div class="sponsors-container">
 
-				<div class="sponsor" v-for="s in sponsors">
-					<a :href="s.link" target="_blank">
-						<img :data-src="s.logo" class="small-image" alt="">
+				<div class="sponsor" style="transform: translateY(5%) !important;">
+					<a href="https://hackerearth.com" target="_blank">
+						<img data-src="https://hackerearth.global.ssl.fastly.net/static/hackerearth/images/logo/HE_logo.svg" class="small-image"
+						 alt="">
+					</a>
+				</div>
+				<div class="sponsor" style="transform: translateY(-15%) !important;">
+					<a href="https://codechef.com" target="_blank">
+						<img data-src="https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.png" class="small-image" alt="">
+					</a>
+				</div>
+				<div class="sponsor">
+					<a href="http://codeforces.com" target="_blank">
+						<img data-src="/images/cf.png" class="small-image" alt="">
+					</a>
+				</div>
+				<div class="sponsor">
+					<a href="https://hackerrank.com" target="_blank">
+						<img data-src="https://hrcdn.net/hackerrank/assets/brand/hr_logo_new_word-52db4dcdc76b31be86456c77b55a7396.png" class="small-image"
+						 alt="">
 					</a>
 				</div>
 			</div>
@@ -155,7 +176,8 @@
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+	<!-- scroll to -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 	<!-- jQuery Modal -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 </body>
