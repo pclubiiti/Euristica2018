@@ -7,12 +7,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- jquery modal -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-	<link rel="stylesheet" href="build/css/main.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/fonts/Blanka-Regular/styles.css">
 	<!-- font awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.15/vue.min.js"></script>
 </head>
 
 <body v-cloak>
@@ -38,9 +39,6 @@
 		<!-- Banner -->
 		<section id="intro" class="intro main">
 			<!-- <span class="icon fas fa-diamond major"></span> -->
-			<h2>
-				<a href="https://pclubiiti.github.io/" target="_blank"> The Programming Club, IIT Indore</a>
-			</h2>
 			<p>{{subtitle}}</p>
 			<a href="https://goo.gl/forms/Fnmn2G4jd1ZiMKrl1" class="button" target="_blank">Register Now</a>
 		</section>
@@ -57,14 +55,8 @@
 				</header>
 				<p>
 					<h3>{{item.title}}</h3>
-					<strong>{{item.date}}</strong>
-					<br> {{item.content}}
+					{{item.content}}
 				</p>
-				<ul class="actions">
-					<li>
-						<a @click="modal(i)" class="button">More</a>
-					</li>
-				</ul>
 				<div :id="'modal'+i" class="modal">
 					<h2>
 						<a>{{item.title}}</a>
@@ -78,7 +70,7 @@
 		<!-- Banner -->
 		<section id="sponsors" class="main intro">
 			<!-- <span class="icon fa-diamond major"></span> -->
-			<h2>Sponsors</h2>
+			<h2>Sponsored By</h2>
 			<hr>
 			<div class="sponsors-container">
 				<div class="sponsor">
@@ -119,8 +111,7 @@
 	</div>
 
 	<!-- Scripts -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.15/vue.min.js"></script>
-	<script src="build/js/indexData-min.js"></script>
+	<script src="assets/js/indexData.js"></script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
