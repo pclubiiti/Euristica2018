@@ -2,7 +2,7 @@ var app = new Vue({
   el: '#header',
   data: {
     title: 'Euristica',
-    subtitle: 'Indian Institute of Technology Indore',
+    subtitle: 'The Programming Club, IIT Indore',
   }
 })
 
@@ -24,13 +24,10 @@ var events = new Vue({
   el: '#events',
   data: {
     list: [{
-      title: "Divide By Zero",
+      title: "Divide By Zero 6.0",
       src: "images/compressed/dbz.png",
       date: "To be announced",
-      content: `
-             It is a short-duration (2.5 hours)
-individual competitive programming
-contest.`,
+      content: `The Smart One`,
       longContent: `
            It is a short-duration (2.5 hours)
 individual competitive programming
@@ -45,7 +42,7 @@ over the world.
       title: "Hackathon",
       src: "images/compressed/hackathon.png",
       date: "23th - 24th March",
-      content: `Hackathon is a team development event. The duration will be 24 to 48 hours.`,
+      content: `The Creative One`,
       longContent: `
             Hackathon is a team development event. The duration will be 24 to 48 hours. Multiple
 problem statements will be provided at the beginning of the event. The contestants will
@@ -82,10 +79,7 @@ with their issue.
       title: "Capture The Flag",
       src: "images/compressed/ctf.png",
       date: "7th-8th April",
-      contacts: [{ "name": "Bhor Verma", "mob": "8109209652" }, { "name": " Kunal Gupta", "mob": "9971918360" }],
-      content: `A special kind of cybersecurity competition designed to challenge its participants to solve
-computersecurity problems and/or capture and defend computersystems.
-                    `,
+      content: `The Clever one`,
       longContent: `
             Our CTF will have be an online jeopardy CTF. The duration of the event will be of 24-48
 hours, and we expect a participation of 500+ teams, with each team consisting of 4
@@ -102,7 +96,7 @@ rewarded.Participants needs to submit the correct flag (piece of text) in order 
       title: "Machine Learning Codesprint",
       src: "images/compressed/ml.png",
       date: "25th March - 8th April",
-      content: `“Information is the oil of the 21st century, and analytics is the combustion engine.”`,
+      content: `The Analytical one`,
       longContent: `
            Artificial intelligence and analysis will shape our future more powerfully than any other
 innovation this century. Machine learning, on the other hand, is a form of artificial
@@ -124,14 +118,10 @@ We are expecting a participation of 500+ people.
       `
     },
     {
-      title: "Code Mélange III",
+      title: "Code Mélange 3.0",
       src: "images/compressed/code_melange.png",
-      date: "30th March - 1st April",
-      time: "21:00",
-      content: `A long algorithmic programming
-                contest that will push your brain to
-                the limit!
-                `,
+      date: "30th March - 1st April, 21:00",
+      content: `The Relentless One`,
       longContent: `
             It is an open to all individual
 contest. We are getting a
@@ -147,9 +137,8 @@ difficulty and implementations, targeting everyone with interest for programming
     {
       title: "Code Golf 4.0",
       src: "images/compressed/code_golf.png",
-      date: "26th March",
-      time: "21:00-23:59",
-      content: `Code Golf is a unique competitive coding challenge in which “Less is More​"​.`,
+      date: "26th March, 21:00-23:59",
+      content: `The Succinct One`,
       longContent: `
             The scoring is based on the
 correctness of the code as well as
@@ -166,12 +155,10 @@ performing well and coming out at the top.
       `
     },
     {
-      title: "Surprise Language IV",
+      title: "Surprise Language 4.0",
       src: "images/compressed/surprise_language.png",
-      date: "28th March",
-      time: "21:00-23:59",
-      contacts: [{ "name": "Keshav Goyal", "mob": "9417951957" }, { "name": " Dhruv Chadha", "mob": "9522583500" }],
-      content: `‘Coz who doesn’t like surprises?`,
+      date: "28th March. 21:00-23:59",
+      content: `The Spontaneous One`,
       longContent: `
             Are you ready for something challenging?
 Something adventurous? We are
@@ -190,10 +177,8 @@ list of 10 languages 3 days before the contest.
     {
       title: "Hack the Code",
       src: "images/compressed/hack_the_code.png",
-      date: "3rd April",
-      time: " 21:00-23:59",
-      content: `Are you a master debugger? Do you love squashing bugs? Is smashing your head on a
-wall and tearing off your hair what you love? If yes, then this contest is definitely for you!`,
+      date: "3rd April, 21:00-23:59",
+      content: `The Meticulous One`,
       longContent: `
            Presenting Hack the code! A 3 hour contest where you’ll be provided problems,
 alongside it’s solution, and you’ll have to find a failing case on the solution. You will be
@@ -206,9 +191,8 @@ the basis of total time taken in hacks.
     {
       title: "Fool You!",
       src: "images/compressed/fool_you.png",
-      date: "1st April",
-      time: "15:00-18:00",
-      content: `Fool You is a programming event which isfar from the usual ‘serious’ programming contests.`,
+      date: "1st April, 15:00-18:00",
+      content: `The Deceptive One`,
       longContent: `
            The unique aspect of this contest which makes it amusing is that it tests the contestants
 deciphering skills and requires them to think out-of-the-box. The problem statements in
@@ -222,8 +206,7 @@ spot clues and hints hidden in the questions.
       title: "SOH CAH TOA",
       src: "images/compressed/soh_cah_toa.png",
       date: "6th April",
-      content: `Based on the norms of Project Euler, we invite you to untangle the labyrinthine of
-mathematics.`,
+      content: `The Geeky One`,
       longContent: `
            This is a special programming contest with problems mainly focussing on the
 mathematical concepts rather than data structures and algorithms. It will be a short
