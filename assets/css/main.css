@@ -1640,3 +1640,12 @@ header>img{
 header>img:hover{
 	opacity: 0;
 }
+
+.no-border{
+	border:none;
+}
+
+.footer>a{
+	font-weight: 900;
+    font-size: 4em;
+}

@@ -5,34 +5,38 @@
 	<title>EURISTICA 2018</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!-- jquery modal -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- fonts -->
 	<link rel="stylesheet" href="assets/fonts/Blanka-Regular/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<!-- custom -->
+	<link rel="stylesheet" href="build/css/main.css" />
+	<!-- jquery-modal -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 	<!-- font awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- google fonts -->
-	<meta name="theme-color" content="#551A8B">
-	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 	<!-- theme color -->
 	<meta name="theme-color" content="#000000" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.15/vue.min.js"></script>
 </head>
 
 <body v-cloak>
 
 	<!-- Header -->
 	<header id="header" class="alt">
-		<video muted autoplay loop no-controls style="height:110vh">
+		<video poster="images/final.png" muted autoplay loop no-controls style="height:110vh">
 			<source src="images/final.mp4" type="video/mp4">
 		</video>
 
 		<div class="inner">
 			<h1>{{title}}</h1>
 			<p>{{subtitle}}</p>
+			<h2>
+				PRIZES WORTH 3L!
+			</h2>
 		</div>
 		<div class="footer">
-			<i class="fa fa-angle-down scroll-arrow"></i>
+			<a href="#wrapper" class="no-border">
+				<i class="fa fa-angle-down scroll-arrow"></i>
+			</a>
 		</div>
 	</header>
 
@@ -49,18 +53,18 @@
 		<!-- Items -->
 		<section id="events" class="main items">
 
-			<article class="item" v-for="(item,i) in list">
+			<article @click="modal(i)" class="item" v-for="(item,i) in list">
 
 				<header>
 					<div class="overlay">
 						<p>
-							{{item.content}}
+							{{item.about}}
 							<br>
 							<br>
-							<a href="#" style="position:unset;">KNOW MORE</a>
+							<span>Click to know more</span>
 						</p>
 					</div>
-					<img style="width:100%;" :src='item.src' alt="" />
+					<img style="width:100%;" :data-src='item.src' alt="" />
 				</header>
 				<p>
 					<h3>{{item.title}}</h3>
@@ -119,7 +123,7 @@
 
 				<div class="sponsor" v-for="s in sponsors">
 					<a :href="s.link" target="_blank">
-						<img :src="s.logo" class="small-image" alt="">
+						<img :data-src="s.logo" class="small-image" alt="">
 					</a>
 				</div>
 			</div>
@@ -145,7 +149,8 @@
 	</div>
 
 	<!-- Scripts -->
-	<script src="assets/js/indexData.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.15/vue.min.js"></script>
+	<script src="build/js/indexData-min.js"></script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
