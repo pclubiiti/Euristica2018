@@ -92,7 +92,7 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
 <br><b>Date</b> - 7th to 8th April
 <br><b>Time</b> - TBA
 <br><b>Contest link</b> - <a target="_blank"  href="http://ctf.euristica.in" >http://ctf.euristica.in</a>
-<br><b>Contact</b> - Kunal Gupta ( 9971918360 )
+<br><b>Contact</b> - <br> Kunal Gupta ( 9971918360 ) <br> Bhor Verma ( +91 81092 09652 )
 <br><div> Prizes worth 50k for the winners. </div>
       `
     },
