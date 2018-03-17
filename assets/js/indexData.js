@@ -37,25 +37,23 @@ var events = new Vue({
       src: "images/compressed/dbz.png",
       date: "To be announced",
       content: `For the Smart Ones !`,
-      about: " Our flagship event, a short duration competitive programming contest, individual participation.",
+      about: " Our flagship event, a short duration competitive programming contest.",
+      dt: "TBA",
       longContent: `
       <i>
-      Our flagship event, a short duration competitive programming contest, individual participation.</i><br>
+      Our flagship event, a short duration competitive programming contest.</i><br>
 <b>Contest Duration </b>- 2.5 hours<br>
 <b>No. of Problems </b>- 7 to 8<br>
 <b>Date</b> - TBA<br>
 <b>Time </b>- TBA<br>
-<b>Contest link</b> -<br> 
-<b>Previous Years links</b> - <a target="_blank"  href="http://codeforces.com/blog/entry/23140" > DBZ 5.0 </a>|
-<a target="_blank"  href="https://www.codechef.com/DIBZ2016" >DBZ 4.0</a>|
-<a target="_blank"  href="https://www.codechef.com/DBYZ15">DBZ 3.0</a>|
-<a target="_blank"  href="https://www.codechef.com/DBYZ2014" >DBZ 2.0</a>|
+
+<b>Previous Years links</b> - <a target="_blank"  href="http://codeforces.com/contest/768" > DBZ 5.0 </a>|
+<a target="_blank"  href="https://www.codechef.com/DIBZ2016" >DBZ 4.0</a> |
+<a target="_blank"  href="https://www.codechef.com/DBYZ15">DBZ 3.0</a> |
+<a target="_blank"  href="https://www.codechef.com/DBYZ2014" >DBZ 2.0</a> |
 <a target="_blank"  href="https://www.codechef.com/DBYZ2013" >DBZ 1.0</a>
+<br><b>Contact</b> - Vinit Shah ( +91 75060 78231 )
 <br><div> Prizes worth 50k for the winners. </div>
-
-
-
-
       `
     },
     {
@@ -63,6 +61,7 @@ var events = new Vue({
       src: "images/compressed/hackathon.png",
       date: "23th - 24th March",
       content: `For the Creative Ones !`,
+      dt: "23rd March - 24th March",
       about: " A social coding event to build a new software under the to-be-announced broad themes. Each team can consist of a maximum of 4 people."
       , longContent: `
       <i>
@@ -71,8 +70,9 @@ var events = new Vue({
       <br><b>Contest Duration</b> - 30 hrs
 <br><b>No. of problems</b> - TBA
 <br><b>Date</b> - 23rd to 24th march
-<br><b>Time</b> - Begins at 9 PM IST 23rd March
-<br><b>Contest Link</b> - 
+<br><b>Time</b> - <br>Begins at 9 PM IST 23rd March
+
+<br><b>Contact</b> - Mrigank Krishan ( +91 7247521600 )
 <br><div> Prizes worth 100k for the winners. </div>
       `
     },
@@ -81,16 +81,18 @@ var events = new Vue({
       src: "images/compressed/ctf.png",
       date: "7th-8th April",
       content: `For the Clever Ones !`,
-      about: "A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF team. The team size for the CTF should be max 4 people."
+      dt: "7th to 8th April",
+      about: "A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF team. The team size for the CTF should be a maximum 4 people."
       , longContent: `
    <i>   
-A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF team. The team size for the CTF should be max 4 people.
+A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF team. The team size for the CTF should be a maximum 4 people.
 </i>
 <br><b>Format</b> - Jeopardy
 <br><b>Contest Duration</b> - TBA
 <br><b>Date</b> - 7th to 8th April
 <br><b>Time</b> - TBA
-<br><b>Contest link</b> - <a target="_blank"  href="https://ctf.euristica.in" >https://ctf.euristica.in</a>
+<br><b>Contest link</b> - <a target="_blank"  href="http://ctf.euristica.in" >http://ctf.euristica.in</a>
+<br><b>Contact</b> - Kunal Gupta ( 9971918360 )
 <br><div> Prizes worth 50k for the winners. </div>
       `
     },
@@ -99,14 +101,15 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
       src: "images/compressed/ml.png",
       date: "25th March - 8th April",
       content: `For the Analytical Ones !`,
-      about: "This codesprint aims to give the participants the thrilling experience of programming a computer to learn.Individual participation."
+      dt: "25th March 12:00 noon to 8th April 12:00 noon",
+      about: "This codesprint aims to give the participants the thrilling experience of programming a computer to learn."
       , longContent: `
-  <i>  This codesprint aims to give the participants the thrilling experience of programming a computer to learn.Individual participation.
+  <i> Participants will be given real world Machine Learning problems, and will have to train their computers to understand and model the data, and predict target outputs corresponding to unseen inputs.
 </i><br><b>Contest Duration</b> - 25th March to 8th April
-<br><b>No. of Problems</b> -
-<br><b>Date and Time</b> - 25th March 12:00 noon to 8th April 12:00 noon
-<br>
-Contest link - <br>
+<br><b>No. of Problems</b> - 3
+<br><b>Date and Time</b> - <br>25th March 12:00 noon to 8th April 12:00 noon
+
+<br><b>Contact</b> - Ankit Gaur ( +91 81716 85165 )
 <br><div> Prizes worth 30k for the winners. </div>
       `
     },
@@ -115,55 +118,61 @@ Contest link - <br>
       src: "images/compressed/code_melange.png",
       date: "30th March - 1st April, 21:00",
       content: `For the Relentless Ones !`,
-      about: "A long algorithmic competitive programming contest, individual participation.",
+      dt: "30th March 9:00pm to 1st April 9:00am",
+      about: "A long algorithmic competitive programming contest which will test your logical, analytical and algorithmic skills.",
       longContent: `
-  <i>    A long algorithmic competitive programming contest, individual participation. </i>
+  <i>    A long algorithmic competitive programming contest which will test your logical, analytical and algorithmic skills.</i>
 <br><b>Contest Duration</b> - 36 hours
 <br><b>No. of Problems</b> - 15-16
-<br><b>Date and Time</b> - 30th March 9:00pm to 1st April 9:00am
-<br><b>Contest link</b> - 
+<br><b>Date and Time</b> - <br> 30th March 9:00pm to 1st April 9:00am
+
 <br><b>Previous Year Links</b> - 
 <a target="_blank"  href="https://www.hackerrank.com/code-melange-iiti/" >Code Mélange 2017</a> | 
 <a target="_blank"  href="https://www.hackerrank.com/contests/code-melange-iiti" >Code Melange 2016</a>
+<br><b>Contact</b> - Kumar Abhinav ( +91 88510 96873 )
 <br><div> Prizes worth 30k for the winners. </div>
       `
     },
     {
-      title: "Code Golf 4.0",
+      title: "Code Golf 2017",
       src: "images/compressed/code_golf.png",
       date: "26th March, 21:00-23:59",
       content: `For the Succinct Ones !`,
-      about: "A coding contest in which shorter is your code, better is your score. Individual participation.",
+      dt: "26th March 9:00 PM - 12:00 PM 27th March",
+      about: "A coding contest in which shorter is your code, better is your score.",
       longContent: `
       <i>
-      A coding contest in which shorter is your code, better is your score. Individual participation.</i>
+      A coding contest in which shorter is your code, better is your score.</i>
 <br><b>Contest Duration</b> - 3 hours 
 <br><b>No. of Problems</b> - 7-8
-<br><b>Date and Time - 26th March 9:00 PM</b> - 12:00 PM 27th March
-<br><b>Contest link</b> - 
+<br><b>Date and Time</b> - <br>26th March 9:00 PM - 12:00 PM 27th March
+
 <br><b>Previous Year Links</b> - 
 <br><b>Code Golf 3.0</b> -  <a target="_blank"  href="https://www.hackerrank.com/fluxus-code-golf" >https://www.hackerrank.com/fluxus-code-golf</a>
+<br><b>Contact</b> - Divyansh Choudhary ( 9818652018 )
 <br><div> Prizes worth 12k for the winners </div>
       `
     },
     {
       title: "Surprise Language 4.0",
       src: "images/compressed/surprise_language.png",
-      date: "28th March. 21:00-23:59",
+      dt: "28th March 9:00 PM - 12:00 PM 29th March",
       content: `For the Spontaneous Ones !`,
-      about: "A programming contest in which the language will be a secret, revealed only 15 minutes before the contest. Individual participation.",
+      about: "A programming contest in which the language will be a secret, revealed only 15 minutes before the contest. We will be releasing a list of languages 3 days before the contest.",
       longContent: `
       <i>
-      A programming contest in which the language will be a secret, revealed only 15 minutes before the contest. Individual participation.
+      A programming contest in which the language will be a secret, revealed only 15 minutes before the contest. We will be releasing a list of languages 3 days before the contest.
 </i>
       <br><b>Contest Duration</b> - 3 Hours.
 <br><b>No. of Problems</b> - 7-8
-<br><b>Date and Time - 28th March 9:00 PM</b> - 12:00 PM 29th March
-<br><b>Contest link</b> - 
+<br><b>Date and Time</b> - 
+<br>28th March 9:00 PM - 12:00 PM 29th March
+
 <br><b>Previous Year Links</b> - 
 <a target="_blank"  href="https://www.hackerrank.com/surprise-language-3-0" >SL 2017</a>
  | <a target="_blank"  href="https://www.hackerrank.com/surprise-language-2-0" >SL 2016</a>
  | <a target="_blank"  href="https://www.hackerrank.com/surprise-language" >SL 2015</a>
+ <br><b>Contact</b> - Dhruv Chadha ( +91 9910286500 )
 <br><div> Prizes worth 12k for the winners </div>
       `
     },
@@ -172,13 +181,15 @@ Contest link - <br>
       src: "images/compressed/hack_the_code.png",
       date: "3rd April, 21:00-23:59",
       content: `For the Meticulous Ones !`,
-      about: "A competitive programming contest in which you test your debugging skills by correcting the given code for the failing test case(s). Individual participation.",
+      dt: "3 April 9:00 PM - 12:00 PM 4 April",
+      about: "A competitive programming contest in which you test your debugging skills by correcting the given code for the failing test case(s). ",
       longContent: `
-  <i>    A competitive programming contest in which you test your debugging skills by correcting the given code for the failing test case(s). Individual participation.
+  <i>    A programming contest which tests your debugging skills by correcting/debugging the given code for the failing test case(s).
 </i><br><b>Contest Duration</b> - 3 hours
 <br><b>No. of Problems</b> - 15
-<br><b>Date and Time - 3 April 9:00 PM</b> - 12:00 PM 4 April
-<br><b>Contest link</b> - 
+<br><b>Date and Time</b> -<br> 3 April 9:00 PM - 12:00 PM 4 April
+
+<br><b>Contact</b> - Daanish Mahajan ( 8146365803 )
 <br><div> Prizes worth 8k for the winners </div>
       `
     },
@@ -187,14 +198,15 @@ Contest link - <br>
       src: "images/compressed/fool_you.png",
       date: "1st April, 15:00-18:00",
       content: `For the Deceptive Ones !`,
-      about: "A unique programming contest that requires one to think out of the box. Individual participation."
+      dt: "1 April 3:00 PM - 8:00 PM 1 April",
+      about: "A unique programming contest that requires one to think out of the box."
       , longContent: `
-  <i>    A unique programming contest that requires one to think out of the box. Individual 
-    participation.
-</i><br><b><b>Contest Duration</b></b> - 5 hours
-<br><b><b>No. of Problems</b></b> - 10-12
-<br><b><b>Date and Time - 1 April 3:00 PM</b></b> - 8:00 PM 1 April
-<br><b><b>Contest link</b></b> - 
+  <i>    A unique programming contest, in which thinking for the solution might still be easier than understanding the problem !
+</i><br><b>Contest Duration</b> - 5 hours
+<br><b>No. of Problems</b> - 10-12
+<br><b>Date and Time</b> - <br> 1 April 3:00 PM - 8:00 PM 1 April
+
+<br><b>Contact</b> - Vishnunarayan K I ( 8921799625 )
 <br><div> Prizes worth 12k for the winners </div>
       `
     },
@@ -203,13 +215,15 @@ Contest link - <br>
       src: "images/compressed/soh_cah_toa.png",
       date: "6th April",
       content: `For the Geeky Ones !`,
-      about: " A short-duration programming contest focusing on number theory, probability, combinatorics, modular arithmetic and other maths topics. Individual participation."
+      dt: " 6th April 9:00pm - 12:00am 7th April",
+      about: " A short-duration mathematical programming contest focusing on number theory, probability, combinatorics, modular arithmetic and other interesting math topics."
       , longContent: `
-  <i>  A short-duration programming contest focusing on number theory, probability, combinatorics, modular arithmetic and other maths topics. Individual participation.
-</i><br><b><b>Contest Duration</b></b> - 3 hours
-<br><b><b>No. of Problems</b></b> - 10-12
-<br><b><b>Date and Time - 6th April 9:00pm</b></b> - 12:00am 7th April
-<br><b><b>Contest link</b></b> - 
+  <i>  A short-duration mathematical programming contest focusing on number theory, probability, combinatorics, modular arithmetic and other interesting math topics.
+</i><br><b>Contest Duration</b> - 3 hours
+<br><b>No. of Problems</b> - 10-12
+<br><b>Date and Time</b> -<br> 6th April 9:00pm - 12:00am 7th April
+
+<br><b>Contact</b> - Priyanshu Varshney ( 8770855796 )
 <br><div> Prizes worth 15k for the winners </div>
       `
     },

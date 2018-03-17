@@ -1440,9 +1440,7 @@
 
 
 /* custom css */
-.modal{
-	max-width: unset;
-}
+
 
 .modal>p{
 	font-weight: 500;
@@ -1675,4 +1673,48 @@ article.item{
 
 a{
 	border: none;
+}
+
+.intro.main.about{
+	position: relative;
+	height: 100vh;
+    display: table-cell;
+	vertical-align: middle;
+	padding: 0;
+	background: url("https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb")
+}
+.intro>.cover{
+	background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 100px;
+}
+.intro.about>.footer{
+	width:100%;color:white;
+}
+@media screen and (max-width: 736px) {
+	.intro>.cover{
+    	padding: 10px;
+	}
+	.modal{
+		width: unset;
+		padding: 15px;
+	}
+	#wrapper{
+		margin-left: 5% !important;
+	}
+}
+
+.white{
+	color: white !important;
+}
+
+#header{
+	position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+#wrapper{
+	position: absolute;
+    margin-left: 10%;
 }
