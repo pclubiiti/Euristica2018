@@ -1718,3 +1718,19 @@ a{
 	position: absolute;
     margin-left: 10%;
 }
+
+.arcesium{
+	text-align: left;
+	transform: translateY(20%);
+}
+
+.arcesium>img{
+	transform: translate3d(6%,36%,0);
+    width: 140px;
+}
+
+@media screen and (max-width: 736px) {
+	.arcesium>img{
+		width: 120px;
+	}
+}

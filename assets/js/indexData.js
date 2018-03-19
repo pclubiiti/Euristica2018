@@ -102,7 +102,7 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
       date: "25th March - 8th April",
       content: `For the Analytical Ones !`,
       dt: "25th March 12:00 noon to 8th April 12:00 noon",
-      about: "This codesprint aims to give the participants the thrilling experience of programming a computer to learn."
+      about: "Participants will be given real world Machine Learning problems, and will have to train their computers to understand and model the data, and predict target outputs corresponding to unseen inputs."
       , longContent: `
   <i> Participants will be given real world Machine Learning problems, and will have to train their computers to understand and model the data, and predict target outputs corresponding to unseen inputs.
 </i><br><b>Contest Duration</b> - 25th March to 8th April
@@ -182,7 +182,7 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
       date: "3rd April, 21:00-23:59",
       content: `For the Meticulous Ones !`,
       dt: "3 April 9:00 PM - 12:00 PM 4 April",
-      about: "A competitive programming contest in which you test your debugging skills by correcting the given code for the failing test case(s). ",
+      about: "A programming contest which tests your debugging skills by correcting/debugging the given code for the failing test case(s).",
       longContent: `
   <i>    A programming contest which tests your debugging skills by correcting/debugging the given code for the failing test case(s).
 </i><br><b>Contest Duration</b> - 3 hours
@@ -199,7 +199,7 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
       date: "1st April, 15:00-18:00",
       content: `For the Deceptive Ones !`,
       dt: "1 April 3:00 PM - 8:00 PM 1 April",
-      about: "A unique programming contest that requires one to think out of the box."
+      about: "A unique programming contest, in which thinking for the solution might still be easier than understanding the problem !"
       , longContent: `
   <i>    A unique programming contest, in which thinking for the solution might still be easier than understanding the problem !
 </i><br><b>Contest Duration</b> - 5 hours
