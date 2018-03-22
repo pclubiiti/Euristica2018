@@ -12,9 +12,7 @@ gulp.task('css', function () {
 
 gulp.task('js', function () {
   return gulp.src('assets/js/indexData.js')
-    .pipe(sourcemaps.init())
     .pipe(minifyJs())
-    .pipe(sourcemaps.write())
     .pipe(gulp.dest('build/js'))
 });
 

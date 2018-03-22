@@ -22,7 +22,7 @@
 
 	<!-- Header -->
 	<header id="header" class="alt">
-		<video poster="images/final4.png" muted autoplay loop no-controls style="height:110vh">
+		<video poster="images/final4.png" muted autoplay loop no-controls style="min-height:110vh;min-width:110vw;">
 			<source src="images/final4.mp4" type="video/mp4">
 		</video>
 
@@ -37,7 +37,7 @@
 			</h2>
 		</div>
 		<div class="footer">
-			<a href='javascript:$(window).scrollTo("#intro",500)' class="no-border">
+			<a href='javascript:void($(window).scrollTo("#intro",500))' class="no-border">
 				<i class="fa fa-angle-down scroll-arrow"></i>
 			</a>
 		</div>
@@ -50,7 +50,7 @@
 			<a href="https://goo.gl/forms/Fnmn2G4jd1ZiMKrl1" class="button white" target="_blank">Register Now</a>
 		</div>
 		<div class="footer">
-			<a href='javascript:$(window).scrollTo("#wrapper",500)' class="no-border">
+			<a href='javascript:void($(window).scrollTo("#wrapper",500))' class="no-border">
 				<i class="fa fa-angle-down scroll-arrow"></i>
 			</a>
 		</div>
@@ -145,18 +145,41 @@
 
 		<!-- Footer -->
 		<footer id="footer">
-			<ul class="icons">
-				<li v-for="item in list">
-					<a :href="item.link" :class="item.class" target="_blank">
-						<span class="label">{{item.tag}}</span>
-					</a>
-				</li>
-			</ul>
-			<p class="copyright">
+			<h2>
+				Contact Us
+			</h2>
+			<hr>
+			<div class="contact">
+				<div>
+
+					<b>Overall Coordinators</b>
+					<ul>
+						<li>
+							Vinit Shah (
+							<a href="tel:+917506078231">+917506078231</a>)
+						</li>
+						<li>
+							Kunal Gupta (
+							<a href="tel:+919971918360">+919971918360</a>,
+							<a href="tel:+918076781706">+918076781706</a>)
+						</li>
+					</ul>
+
+				</div>
+				<div>
+					<b>Social</b>
+					<div v-for="item in list">
+						<a :href="item.link" :class="item.class" target="_blank">
+							<span class="label"> {{item.tag}}</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- <p class="copyright">
 				<a href="https://pclubiiti.github.io">
 					&copy; {{subtitle}}
 				</a>
-			</p>
+			</p> -->
 		</footer>
 
 	</div>

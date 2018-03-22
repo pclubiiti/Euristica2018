@@ -641,7 +641,7 @@
 		}
 
 		.icon > .label {
-			display: none;
+			/* display: none; */
 		}
 
 		.icon.major {
@@ -1406,21 +1406,21 @@
 
 	#footer {
 		text-align: center;
-		margin-top: 4em;
+		margin-top: 2em;
 	}
 
 		#footer a {
 			color: inherit;
 		}
 
-		#footer:before {
+		/* #footer:before {
 			content: '';
 			display: inline-block;
 			width: 6em;
 			height: 2px;
 			background-color: #666666;
 			margin-bottom: 4em;
-		}
+		} */
 
 		#footer .copyright {
 			font-size: 0.8em;
@@ -1722,15 +1722,26 @@ a{
 .arcesium{
 	text-align: left;
 	transform: translateY(20%);
+	font-size: 0.8em;
 }
 
 .arcesium>img{
-	transform: translate3d(6%,36%,0);
-    width: 140px;
+	transform: translate3d(6%,40%,0);
+    width: 160px;
 }
 
 @media screen and (max-width: 736px) {
 	.arcesium>img{
-		width: 120px;
+		width: 130px;
 	}
+	.contact{
+		flex-direction: column;
+	}
+}
+
+.contact{
+	text-align: left;
+	display: flex;
+	justify-content: space-around;
+	padding: 0px 10px 20px 10px;
 }

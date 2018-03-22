@@ -52,7 +52,7 @@ var events = new Vue({
 <a target="_blank"  href="https://www.codechef.com/DBYZ15">DBZ 3.0</a> |
 <a target="_blank"  href="https://www.codechef.com/DBYZ2014" >DBZ 2.0</a> |
 <a target="_blank"  href="https://www.codechef.com/DBYZ2013" >DBZ 1.0</a>
-<br><b>Contact</b> - Vinit Shah ( +91 75060 78231 )
+<br><b>Contact</b> - Vinit Shah ( <a href="tel:+91 75060 7823">+91 75060 7823</a> )
 <br><div> Prizes worth 50k for the winners. </div>
       `
     },
@@ -72,7 +72,7 @@ var events = new Vue({
 <br><b>Date</b> - 23rd to 24th march
 <br><b>Time</b> - <br>Begins at 9 PM IST 23rd March
 
-<br><b>Contact</b> - Mrigank Krishan ( +91 7247521600 )
+<br><b>Contact</b> - Mrigank Krishan ( <a href="tel:+91 724752160">+91 724752160</a> )
 <br><div> Prizes worth 100k for the winners. </div>
       `
     },
@@ -92,7 +92,7 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
 <br><b>Date</b> - 7th to 8th April
 <br><b>Time</b> - TBA
 <br><b>Contest link</b> - <a target="_blank"  href="http://ctf.euristica.in" >http://ctf.euristica.in</a>
-<br><b>Contact</b> - <br> Kunal Gupta ( 9971918360 ) <br> Bhor Verma ( +91 81092 09652 )
+<br><b>Contact</b> - <br> Kunal Gupta ( <a href="tel:+91 99719 18360">+91 99719 18360</a>, <a href="tel:+91 80767 81706">+91 80767 81706</a> ) <br> Bhor Verma ( <a href="tel:+91 81092 09652">+91 81092 09652</a> )
 <br><div> Prizes worth 50k for the winners. </div>
       `
     },
@@ -109,7 +109,7 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
 <br><b>No. of Problems</b> - 3
 <br><b>Date and Time</b> - <br>25th March 12:00 noon to 8th April 12:00 noon
 
-<br><b>Contact</b> - Ankit Gaur ( +91 81716 85165 )
+<br><b>Contact</b> - Ankit Gaur ( <a href="tel:+91 81716 8516">+91 81716 8516</a> )
 <br><div> Prizes worth 30k for the winners. </div>
       `
     },
@@ -129,7 +129,7 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
 <br><b>Previous Year Links</b> - 
 <a target="_blank"  href="https://www.hackerrank.com/code-melange-iiti/" >Code Mélange 2017</a> | 
 <a target="_blank"  href="https://www.hackerrank.com/contests/code-melange-iiti" >Code Melange 2016</a>
-<br><b>Contact</b> - Kumar Abhinav ( +91 88510 96873 )
+<br><b>Contact</b> - Kumar Abhinav ( <a href="tel:+91 88510 9687">+91 88510 9687</a> )
 <br><div> Prizes worth 30k for the winners. </div>
       `
     },
@@ -149,7 +149,7 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
 
 <br><b>Previous Year Links</b> - 
 <br><b>Code Golf 3.0</b> -  <a target="_blank"  href="https://www.hackerrank.com/fluxus-code-golf" >https://www.hackerrank.com/fluxus-code-golf</a>
-<br><b>Contact</b> - Divyansh Choudhary ( 9818652018 )
+<br><b>Contact</b> - Divyansh Choudhary ( <a href="tel:+91 9818652018">+91 9818652018</a> )
 <br><div> Prizes worth 12k for the winners </div>
       `
     },
@@ -172,7 +172,7 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
 <a target="_blank"  href="https://www.hackerrank.com/surprise-language-3-0" >SL 2017</a>
  | <a target="_blank"  href="https://www.hackerrank.com/surprise-language-2-0" >SL 2016</a>
  | <a target="_blank"  href="https://www.hackerrank.com/surprise-language" >SL 2015</a>
- <br><b>Contact</b> - Dhruv Chadha ( +91 9910286500 )
+ <br><b>Contact</b> - Dhruv Chadha ( <a href="tel:+91 991028650">+91 991028650</a> )
 <br><div> Prizes worth 12k for the winners </div>
       `
     },
@@ -189,7 +189,7 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
 <br><b>No. of Problems</b> - 15
 <br><b>Date and Time</b> -<br> 3 April 9:00 PM - 12:00 PM 4 April
 
-<br><b>Contact</b> - Daanish Mahajan ( 8146365803 )
+<br><b>Contact</b> - Daanish Mahajan ( <a href="tel:+91 8146365803">+91 8146365803</a> )
 <br><div> Prizes worth 8k for the winners </div>
       `
     },
@@ -206,7 +206,7 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
 <br><b>No. of Problems</b> - 10-12
 <br><b>Date and Time</b> - <br> 1 April 3:00 PM - 8:00 PM 1 April
 
-<br><b>Contact</b> - Vishnunarayan K I ( 8921799625 )
+<br><b>Contact</b> - Vishnunarayan K I ( <a href="tel:+91 8921799625">+91 8921799625</a> )
 <br><div> Prizes worth 12k for the winners </div>
       `
     },
@@ -223,7 +223,7 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
 <br><b>No. of Problems</b> - 10-12
 <br><b>Date and Time</b> -<br> 6th April 9:00pm - 12:00am 7th April
 
-<br><b>Contact</b> - Priyanshu Varshney ( 8770855796 )
+<br><b>Contact</b> - Priyanshu Varshney ( <a href="tel:+91 8770855796">+91 8770855796</a> )
 <br><div> Prizes worth 15k for the winners </div>
       `
     },
@@ -250,7 +250,7 @@ var footer = new Vue({
       },
       {
         class: 'icon fa-facebook',
-        tag: 'Facebook',
+        tag: ' Facebook',
         link: 'https://www.facebook.com/pclubiiti/',
       },
       {
@@ -261,7 +261,12 @@ var footer = new Vue({
 
       {
         class: 'icon fa-envelope',
-        tag: 'Email',
+        tag: 'euristica@iiti.ac.in',
+        link: 'mailto:euristica@iiti.ac.in',
+      },
+      {
+        class: 'icon fa-envelope',
+        tag: 'progclub@iiti.ac.in',
         link: 'mailto:progclub@iiti.ac.in',
       },
     ]
