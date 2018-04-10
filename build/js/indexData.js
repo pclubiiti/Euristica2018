@@ -35,31 +35,32 @@ var events = new Vue({
     list: [{
       title: "Divide By Zero 6.0",
       src: "images/compressed/dbz.png",
-      date: "To be announced",
+      
       content: `For the Smart Ones !`,
       about: " Our flagship event, a short duration competitive programming contest.",
-      dt: "TBA",
+      dt: "7th April 21:35 - 8th April 00:05",
       longContent: `
       <i>
       Our flagship event, a short duration competitive programming contest.</i><br>
-<b>Contest Duration </b>- 2.5 hours<br>
+<b><br>Contest Duration </b>- 2.5 hours<br>
 <b>No. of Problems </b>- 7 to 8<br>
-<b>Date</b> - TBA<br>
-<b>Time </b>- TBA<br>
-
-<b>Previous Years links</b> - <a target="_blank"  href="http://codeforces.com/contest/768" > DBZ 5.0 </a>|
+<b>Date and Time</b> - 7th April 21:35 - 8th April 00:05
+<br><b>Contest Link - </b><a target="_blank" href="http://codeforces.com/contests/960" >Click Here</a>
+<br><b>Previous Years links</b> -
+<br>
+<a target="_blank"  href="http://codeforces.com/contest/768" > DBZ 5.0 </a>|
 <a target="_blank"  href="https://www.codechef.com/DIBZ2016" >DBZ 4.0</a> |
 <a target="_blank"  href="https://www.codechef.com/DBYZ15">DBZ 3.0</a> |
 <a target="_blank"  href="https://www.codechef.com/DBYZ2014" >DBZ 2.0</a> |
 <a target="_blank"  href="https://www.codechef.com/DBYZ2013" >DBZ 1.0</a>
-<br><b>Contact</b> - Vinit Shah ( <a href="tel:+91 75060 7823">+91 75060 7823</a> )
-<br><div> Prizes worth 50k for the winners. </div>
+<br><b>Contact</b> - Vinit Shah ( <a href="tel:+91 75060 78231" >+91 75060 78231</a> )
+<br><div> <br>Prizes worth 50k for the winners. </div>
       `
     },
     {
       title: "Hackathon",
       src: "images/compressed/hackathon.png",
-      date: "23th - 24th March",
+      
       content: `For the Creative Ones !`,
       dt: "23rd March - 24th March",
       about: " A social coding event to build a new software under the to-be-announced broad themes. Each team can consist of a maximum of 4 people."
@@ -67,90 +68,87 @@ var events = new Vue({
       <i>
       A social coding event to build a new software under the to-be-announced broad themes. Each team can consist of a maximum of 4 people.
 </i>
-      <br><b>Contest Duration</b> - 30 hrs
+      <br><b><br>Contest Duration</b> - 30 hrs
 <br><b>No. of problems</b> - TBA
 <br><b>Date</b> - 23rd to 24th march
-<br><b>Time</b> - <br>Begins at 9 PM IST 23rd March
-
-<br><b>Contact</b> - Mrigank Krishan ( <a href="tel:+91 724752160">+91 724752160</a> )
-<br><div> Prizes worth 100k for the winners. </div>
+<br><b>Time</b> - Begins at 9 PM IST 23rd March
+<br><b>Contest Link</b> - <a href='https://www.hackerearth.com/sprints/euristica18-and-e-summit-hackathon/
+'>Click Here</a>
+<br><b>Contact</b> - Mrigank Krishan ( <a href="tel:+91 7247521600" >+91 7247521600</a> )
+<br><div> <br>Prizes worth 100k for the winners. </div>
       `
     },
     {
       title: "Capture The Flag",
       src: "images/compressed/ctf.png",
-      date: "7th-8th April",
       content: `For the Clever Ones !`,
-      dt: "7th to 8th April",
+      dt: "7 April 9pm IST - 8 April 9pm IST",
       about: "A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF team. The team size for the CTF should be a maximum 4 people."
       , longContent: `
-   <i>   
+   <i>
 A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF team. The team size for the CTF should be a maximum 4 people.
 </i>
 <br><b>Format</b> - Jeopardy
-<br><b>Contest Duration</b> - TBA
-<br><b>Date</b> - 7th to 8th April
-<br><b>Time</b> - TBA
-<br><b>Contest link</b> - <a target="_blank"  href="http://ctf.euristica.in" >http://ctf.euristica.in</a>
-<br><b>Contact</b> - <br> Kunal Gupta ( <a href="tel:+91 99719 18360">+91 99719 18360</a>, <a href="tel:+91 80767 81706">+91 80767 81706</a> ) <br> Bhor Verma ( <a href="tel:+91 81092 09652">+91 81092 09652</a> )
-<br><div> Prizes worth 50k for the winners. </div>
+<br><b><br>Contest Duration</b> - 24hrs
+<br><b>Date and Time</b> - <br> 7 April 9pm IST - 8 April 9pm IST
+<br><b>Contest link</b> - <a target="_blank"  href="http://ctf.euristica.in" >Click Here</a>
+<br><b>Contact</b> - <br> Kunal Gupta ( <a href="tel:+91 9971918360" >+91 9971918360</a> ) <br> Bhor Verma ( <a href="tel:+91 81092 09652" >+91 81092 09652</a> )
+<br><div> <br>Prizes worth 50k for the winners. </div>
       `
     },
     {
       title: "Machine Learning Codesprint",
       src: "images/compressed/ml.png",
-      date: "25th March - 8th April",
+      
       content: `For the Analytical Ones !`,
-      dt: "25th March 12:00 noon to 8th April 12:00 noon",
-      about: "Participants will be given real world Machine Learning problems, and will have to train their computers to understand and model the data, and predict target outputs corresponding to unseen inputs."
+      dt: "30th March 9pm to 8th April 12:00 noon",
+      about: "This codesprint aims to give the participants the thrilling experience of programming a computer to learn."
       , longContent: `
-  <i> Participants will be given real world Machine Learning problems, and will have to train their computers to understand and model the data, and predict target outputs corresponding to unseen inputs.
-</i><br><b>Contest Duration</b> - 25th March to 8th April
-<br><b>No. of Problems</b> - 3
-<br><b>Date and Time</b> - <br>25th March 12:00 noon to 8th April 12:00 noon
-
-<br><b>Contact</b> - Ankit Gaur ( <a href="tel:+91 81716 8516">+91 81716 8516</a> )
-<br><div> Prizes worth 30k for the winners. </div>
+  <i> Participants will be given real world Machine Learning problems, and will have to train their computers to understand and model the data, and predict target outputs corresponding to unseen inputs.</i>
+<br><b>No. of Problems</b> - 2
+<br><b>Date and Time</b> - 30th March 9pm to 8th April 12:00 noon
+<br><b>Contest Link - </b><a target="_blank" href="https://www.hackerearth.com/challenge/college/euristica-ml/" >Click Here</a>
+<br><b>Contact</b> - <a href="mailto:euristica@iiti.ac.in">euristica@iiti.ac.in</a>
+<br><div> <br>Prizes worth 30k for the winners. </div>
       `
     },
     {
-      title: "Code Mélange 3.0",
+      title: "Code Mélange 4.0",
       src: "images/compressed/code_melange.png",
-      date: "30th March - 1st April, 21:00",
       content: `For the Relentless Ones !`,
-      dt: "30th March 9:00pm to 1st April 9:00am",
-      about: "A long algorithmic competitive programming contest which will test your logical, analytical and algorithmic skills.",
+      dt: "4th April 9:00pm to 5th April 2:00am",
+      about: "A competitive programming contest which will test your logical, analytical and algorithmic skills.",
       longContent: `
-  <i>    A long algorithmic competitive programming contest which will test your logical, analytical and algorithmic skills.</i>
-<br><b>Contest Duration</b> - 36 hours
-<br><b>No. of Problems</b> - 15-16
-<br><b>Date and Time</b> - <br> 30th March 9:00pm to 1st April 9:00am
-
-<br><b>Previous Year Links</b> - 
-<a target="_blank"  href="https://www.hackerrank.com/code-melange-iiti/" >Code Mélange 2017</a> | 
-<a target="_blank"  href="https://www.hackerrank.com/contests/code-melange-iiti" >Code Melange 2016</a>
-<br><b>Contact</b> - Kumar Abhinav ( <a href="tel:+91 88510 9687">+91 88510 9687</a> )
-<br><div> Prizes worth 30k for the winners. </div>
+  <i>    A competitive programming contest which will test your logical, analytical and algorithmic skills.</i>
+<br><b><br>Contest Duration</b> - 5 hours
+<br><b>Date and Time</b> - <br> 4th April 9:00pm to 5th April 2:00am
+<br><b>Contest Link - </b><a target="_blank" href="https://www.codechef.com/CMEL2018">Click Here</a>
+<br><b>Previous Year Links</b> -
+<br>
+<a target="_blank"  href="https://www.hackerrank.com/code-melange-iiti/" >Code Mélange 2017</a> |
+<a target="_blank"  href="https://www.hackerrank.com/code-melange-iiti-old" >Code Melange 2016</a> |
+<a target="_blank"  href="https://www.hackerrank.com/contests/code-melange/challenges" >Code Melange 2015</a>
+<br><b>Contact</b> - Kumar Abhinav ( <a href="tel:+91 88510 96873" >+91 88510 96873</a> )
+<br><div> <br>Prizes worth 30k for the winners. </div>
       `
     },
     {
       title: "Code Golf 2017",
       src: "images/compressed/code_golf.png",
-      date: "26th March, 21:00-23:59",
+      
       content: `For the Succinct Ones !`,
-      dt: "26th March 9:00 PM - 12:00 PM 27th March",
+      dt: "26th March 9:00 PM - 12:00 AM 27th March",
       about: "A coding contest in which shorter is your code, better is your score.",
       longContent: `
       <i>
       A coding contest in which shorter is your code, better is your score.</i>
-<br><b>Contest Duration</b> - 3 hours 
+<br><b><br>Contest Duration</b> - 3 hours
 <br><b>No. of Problems</b> - 7-8
-<br><b>Date and Time</b> - <br>26th March 9:00 PM - 12:00 PM 27th March
-
-<br><b>Previous Year Links</b> - 
-<br><b>Code Golf 3.0</b> -  <a target="_blank"  href="https://www.hackerrank.com/fluxus-code-golf" >https://www.hackerrank.com/fluxus-code-golf</a>
-<br><b>Contact</b> - Divyansh Choudhary ( <a href="tel:+91 9818652018">+91 9818652018</a> )
-<br><div> Prizes worth 12k for the winners </div>
+<br><b>Date and Time</b> -26th March 9:00 PM - 12:00 AM 27th March
+<br><b>Contest Link</b> - <a target="_blank" href="https://www.hackerrank.com/code-golf-4"> Click here </a>
+<br><b>Previous Year Links</b> - <a target="_blank"  href="https://www.hackerrank.com/fluxus-code-golf" >Code Golf 3.0</a>
+<br><b>Contact</b> - <br>Divyansh Choudhary (<a href="tel:+91 9818652018" >+919818652018</a>)
+<br><div> <br>Prizes worth 12k for the winners </div>
       `
     },
     {
@@ -163,68 +161,72 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
       <i>
       A programming contest in which the language will be a secret, revealed only 15 minutes before the contest. We will be releasing a list of languages 3 days before the contest.
 </i>
-      <br><b>Contest Duration</b> - 3 Hours.
+      <br><b><br>Contest Duration</b> - 3 Hours.
 <br><b>No. of Problems</b> - 7-8
-<br><b>Date and Time</b> - 
-<br>28th March 9:00 PM - 12:00 PM 29th March
-
-<br><b>Previous Year Links</b> - 
+<br><b>Date and Time</b> -
+28th March 9:00 PM - 12:00 PM 29th March
+<br><b>Contest Link - </b><a target="_blank" href="http://www.hackerrank.com/surprise-language-4-0" >Click Here</a>
+<br><b>Previous Year Links</b> -
 <a target="_blank"  href="https://www.hackerrank.com/surprise-language-3-0" >SL 2017</a>
  | <a target="_blank"  href="https://www.hackerrank.com/surprise-language-2-0" >SL 2016</a>
  | <a target="_blank"  href="https://www.hackerrank.com/surprise-language" >SL 2015</a>
- <br><b>Contact</b> - Dhruv Chadha ( <a href="tel:+91 991028650">+91 991028650</a> )
-<br><div> Prizes worth 12k for the winners </div>
+ <br><b>Contact</b> - Dhruv Chadha ( <a href="tel:+91 9910286500" >+91 9910286500</a> )
+<br><div> <br>Prizes worth 12k for the winners </div>
       `
     },
     {
       title: "Hack the Code",
       src: "images/compressed/hack_the_code.png",
-      date: "3rd April, 21:00-23:59",
+      
       content: `For the Meticulous Ones !`,
-      dt: "3 April 9:00 PM - 12:00 PM 4 April",
-      about: "A programming contest which tests your debugging skills by correcting/debugging the given code for the failing test case(s).",
+      dt: "13 April 21:00 - 0:00 IST 14 April",
+      about: "A competitive programming contest in which you test your debugging skills by correcting the given code for the failing test case(s). ",
       longContent: `
   <i>    A programming contest which tests your debugging skills by correcting/debugging the given code for the failing test case(s).
-</i><br><b>Contest Duration</b> - 3 hours
+</i><br><b><br>Contest Duration</b> - 3 hours
 <br><b>No. of Problems</b> - 15
-<br><b>Date and Time</b> -<br> 3 April 9:00 PM - 12:00 PM 4 April
-
-<br><b>Contact</b> - Daanish Mahajan ( <a href="tel:+91 8146365803">+91 8146365803</a> )
-<br><div> Prizes worth 8k for the winners </div>
+<br><b>Date and Time</b> - 13 April 21:00 - 0:00 IST 14 April
+<br><b>Contest Link - </b><a target="_blank" href="https://www.hackerrank.com/hack-the-code4" >Click Here</a>
+<br><b>Contact</b> - Daanish Mahajan ( <a href="tel:+91 8146365803" >+91 8146365803</a> )
+<br><div> <br>Prizes worth 8k for the winners </div>
       `
     },
     {
       title: "Fool You!",
       src: "images/compressed/fool_you.png",
-      date: "1st April, 15:00-18:00",
+      
       content: `For the Deceptive Ones !`,
       dt: "1 April 3:00 PM - 8:00 PM 1 April",
-      about: "A unique programming contest, in which thinking for the solution might still be easier than understanding the problem !"
+      about: "A unique programming contest that requires one to think out of the box."
       , longContent: `
   <i>    A unique programming contest, in which thinking for the solution might still be easier than understanding the problem !
-</i><br><b>Contest Duration</b> - 5 hours
-<br><b>No. of Problems</b> - 10-12
-<br><b>Date and Time</b> - <br> 1 April 3:00 PM - 8:00 PM 1 April
-
-<br><b>Contact</b> - Vishnunarayan K I ( <a href="tel:+91 8921799625">+91 8921799625</a> )
-<br><div> Prizes worth 12k for the winners </div>
-      `
+</i><br><b><br>Contest Duration</b> - 5 hours
+<br><b>No. of Problems</b> - 6
+<br><b>Date and Time</b> - 1 April 3:00 PM - 8:00 PM 1 April
+<br><b>Contest Link</b> - <a href="https://www.codechef.com/FOOY2018" target="_blank" >Click Here</a>
+<br><b>Contact</b> - Vishnunarayan K I ( <a href="tel:+91 8921799625" >+91 8921799625</a> )
+<br><div> <br>Prizes worth 12k for the winners </div>
+<br><b>Are you a computer?</b>
+<br><small style="word-wrap: break-word;">
+011001000110100101110110011010010110010001100101001000000110001001111001001000000011001000100000011000010110111001100100001000000110000101100100011001000010000001100110011010010111011001100101
+</small>      
+`
     },
     {
       title: "SOH CAH TOA",
       src: "images/compressed/soh_cah_toa.png",
-      date: "6th April",
+      
       content: `For the Geeky Ones !`,
       dt: " 6th April 9:00pm - 12:00am 7th April",
       about: " A short-duration mathematical programming contest focusing on number theory, probability, combinatorics, modular arithmetic and other interesting math topics."
       , longContent: `
   <i>  A short-duration mathematical programming contest focusing on number theory, probability, combinatorics, modular arithmetic and other interesting math topics.
-</i><br><b>Contest Duration</b> - 3 hours
+</i><br><b><br>Contest Duration</b> - 3 hours
 <br><b>No. of Problems</b> - 10-12
 <br><b>Date and Time</b> -<br> 6th April 9:00pm - 12:00am 7th April
-
-<br><b>Contact</b> - Priyanshu Varshney ( <a href="tel:+91 8770855796">+91 8770855796</a> )
-<br><div> Prizes worth 15k for the winners </div>
+<br><b>Contest Link</b> - <a href="http://www.hackerrank.com/soh-cah-toa" target="_blank">Click Here</a>
+<br><b>Contact</b> - Priyanshu Varshney (<a href="tel:+91 8770855796" >+91 8770855796</a>)
+<br><div> <br>Prizes worth 15k for the winners </div>
       `
     },
     ],
@@ -250,7 +252,7 @@ var footer = new Vue({
       },
       {
         class: 'icon fa-facebook',
-        tag: ' Facebook',
+        tag: 'Facebook',
         link: 'https://www.facebook.com/pclubiiti/',
       },
       {
