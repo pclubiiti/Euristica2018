@@ -37,13 +37,13 @@ var events = new Vue({
       src: "images/compressed/dbz.png",
       content: `For the Algorithmic Ones !`,
       about: `Our flagship event, a short duration competitive programming contest being held on Codeforces`,
-      dt: "March 2019",
+      dt: "TBA",
       longContent: `
       <i>
       Our flagship event, a short duration individual competitive programming contest being held on</i> <a target="blank" href="http://codeforces.com"></b>Codeforces.</b></a><br>
 <b><br>Contest Duration </b>- 2 hours<br>
 <b>No. of Problems </b>- 7 to 8<br>
-<b>Date and Time</b> - March 2019
+<b>Date and Time</b> - TBA
 <br><b>Contest Link - </b><a href="index.html" >Click Here</a>
 <br><b>Previous Years links</b> -
 <br>
@@ -62,7 +62,7 @@ var events = new Vue({
       src: "images/compressed/hackathon.png",
 
       content: `Where Ideas Morph into Products !`,
-      dt: "March 2019",
+      dt: "TBA",
       about: " A social coding event to build a new software under the to-be-announced broad themes."
       , longContent: `
       <i>
@@ -72,7 +72,7 @@ var events = new Vue({
       <br><b><br>Contest Duration</b> - 48 hrs
 <br><b>No. of problems</b> - TBA
 <br><b>Max. Team Size</b> - 4 Members
-<br><b>Date</b> - March 2019
+<br><b>Date</b> - TBA
 <br><b>Time</b> - TBA
 <br><b>Contest Link</b> - <a href='index.html'>Click Here</a>
 <br><b>Contact</b> - Mrigank Krishan ( <a href="tel:+91 7247521600" >+91 7247521600</a> )
@@ -83,7 +83,7 @@ var events = new Vue({
       title: "Capture The Flag",
       src: "images/compressed/ctf.png",
       content: `Computer’s a Fortress here, can you become the Knight?`,
-      dt: "March 2019",
+      dt: "TBA",
       about: "A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF team. The team size for the CTF should be a maximum 4 people."
       , longContent: `
    <i>
@@ -93,7 +93,7 @@ Cryptography.
 <br><b><br>Format</b> - Jeopardy
 <br><b>Contest Duration</b> - 24-48 hrs
 <br><b>No. of problems</b> - 15
-<br><b>Date and Time</b> -  March 2019
+<br><b>Date and Time</b> -  TBA
 <br><b>Contest link</b> - <a target="_blank"  href="http://ctf.euristica.in" >Click Here</a>
 <br><b>Contact</b> - <br> Kunal Gupta ( <a href="tel:+91 9971918360" >+91 9971918360</a> ) <br> Bhor Verma ( <a href="tel:+91 81092 09652" >+91 81092 09652</a> )
 <br><div> <br>Prizes worth 50k for the winners. </div>
@@ -104,14 +104,14 @@ Cryptography.
       src: "images/compressed/ml.png",
 
       content: `For the Analytical Ones !`,
-      dt: "March 2019",
+      dt: "TBA",
       about: "This codesprint aims to give the participants the thrilling experience of programming a computer to learn."
       , longContent: `
   <i> Artificial Intelligence(AI) and Analysis will shape our future more powerfully than any other innovation this century. ​Machine learning is an application of Artificial Intelligence in which ​the computer learns for itself how to complete a task​.
 <br>This codesprint aims to give the participants the thrilling experience of Programming a
 Computer to learn. </i><br>
 <br><b>No. of Problems</b> - 2
-<br><b>Date and Time</b> - March 2019
+<br><b>Date and Time</b> - TBA
 <br><b>Contest Link - </b><a href="index.html" >Click Here</a>
 <br><b>Contact</b> - <a href="mailto:euristica@iiti.ac.in">euristica@iiti.ac.in</a>
 <br><div> <br>Prizes worth 30k for the winners. </div>
@@ -121,13 +121,13 @@ Computer to learn. </i><br>
       title: "Code Mélange 5.0",
       src: "images/compressed/code_melange.png",
       content: `When algorithms take the centre stage…!`,
-      dt: "March 2019",
+      dt: "TBA",
       about: "A competitive programming contest which will test your logical, analytical and algorithmic skills.",
       longContent: `
   <i>    A competitive programming contest which will test your logical, analytical and algorithmic skills with problems of varying difficulty.</i>
 <br><b><br>Contest Duration</b> - 48-72 hours
 <br><b> No. of Problems</b> - 10-12
-<br><b>Date and Time</b> - March 2019
+<br><b>Date and Time</b> - TBA
 <br><b>Contest Link - </b><a href="index.html">Click Here</a>
 <br><b>Previous Year Links</b> -
 <br>
@@ -144,14 +144,14 @@ Computer to learn. </i><br>
       src: "images/compressed/code_golf.png",
 
       content: `Stack or Sort, Code it Short!`,
-      dt: "March 2019",
+      dt: "TBA",
       about: "A coding contest in which shorter is your code, better is your score.",
       longContent: `
       <i>
       A coding contest in which shorter is your code, better is your score.</i>
 <br><b><br>Contest Duration</b> - 3 hours
 <br><b>No. of Problems</b> - 7-8
-<br><b>Date and Time</b> -March 2019
+<br><b>Date and Time</b> -TBA
 <br><b>Contest Link</b> - <a href="index.html"> Click here </a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="https://www.hackerrank.com/code-golf-4">Code Golf 4.0</a> |
 <a target="_blank"  href="https://www.hackerrank.com/fluxus-code-golf" >Code Golf 3.0</a>
@@ -162,7 +162,7 @@ Computer to learn. </i><br>
     {
       title: "Surprise Language 5.0",
       src: "images/compressed/surprise_language.png",
-      dt: "March 2019",
+      dt: "TBA",
       content: `‘Coz who doesn’t like surprises ?`,
       about: "Ready for something adventurous ? Here we bring a programming contest in which the language will be a secret, revealed only 15 minutes before the contest. We will be releasing a list of languages 3 days before the contest.",
       longContent: `
@@ -171,7 +171,7 @@ Computer to learn. </i><br>
 </i>
       <br><b><br>Contest Duration</b> - 3 Hours.
 <br><b>No. of Problems</b> - 7-8
-<br><b>Date and Time</b> - March 2019
+<br><b>Date and Time</b> - TBA
 <br><b>Contest Link - </b><a target="_blank" href="index.html" >Click Here</a>
 <br><b>Previous Year Links</b> -
 <a target="_blank"  href="https://www.hackerrank.com/surprise-language-4-0" >SL 2018</a>
@@ -187,7 +187,7 @@ Computer to learn. </i><br>
       src: "images/compressed/hack_the_code.png",
 
       content: `Are you a master debugger?`,
-      dt: "March 2019",
+      dt: "TBA",
       about: "A competitive programming contest in which you test your debugging skills by correcting the given code for the failing test case(s). ",
       longContent: `
   <i>
@@ -197,7 +197,7 @@ Computer to learn. </i><br>
 alongside it’s solution(any language), and you’ll have to find a failing case on the solution.  Just output any test case which will fail the code.
 </i><br><b><br>Contest Duration</b> - 3 hours
 <br><b>No. of Problems</b> - 10
-<br><b>Date and Time</b> - March 2019
+<br><b>Date and Time</b> - TBA
 <br><b>Contest Link - </b><a target="_blank" href="index.html" >Click Here</a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="https://www.hackerrank.com/hack-the-code4">Hack The Code 2018</a>
 <br><b>Contact</b> - Daanish Mahajan ( <a href="tel:+91 8146365803" >+91 8146365803</a> )
@@ -209,21 +209,17 @@ alongside it’s solution(any language), and you’ll have to find a failing cas
       src: "images/compressed/fool_you.png",
 
       content: `There’s nothing more deceptive than an obvious fact!`,
-      dt: "March 2019",
+      dt: "TBA",
       about: "A unique programming contest that requires one to think out of the box."
       , longContent: `
   <i>    A unique programming contest, in which thinking for the solution might still be easier than understanding the problem !
 </i><br><b><br>Contest Duration</b> - 5 hours
 <br><b>No. of Problems</b> - 6
-<br><b>Date and Time</b> - March 2019
+<br><b>Date and Time</b> - TBA
 <br><b>Contest Link</b> - <a href="index.html" >Click Here</a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="https://www.codechef.com/FOOY2018">Fool You 2018</a>
 <br><b>Contact</b> - Vishnunarayan K I ( <a href="tel:+91 8921799625" >+91 8921799625</a> )
 <br><div> <br>Prizes worth 12k for the winners </div>
-<br><b>Are you a computer?</b>
-<br><small style="word-wrap: break-word;">
-011001000110100101110110011010010110010001100101001000000110001001111001001000000011001000100000011000010110111001100100001000000110000101100100011001000010000001100110011010010111011001100101
-</small>
 `
     },
     {
@@ -231,13 +227,13 @@ alongside it’s solution(any language), and you’ll have to find a failing cas
       src: "images/compressed/soh_cah_toa.png",
 
       content: `Untangle the labyrinthine of Mathematical Programming.`,
-      dt: "March 2019",
+      dt: "TBA",
       about: " A short-duration mathematical programming contest focusing on Number Theory, Probability, Combinatorics, Modular Arithmetic and other interesting math topics."
       , longContent: `
   <i>  A short-duration mathematical programming contest focusing on Number Theory, Probability, Combinatorics, Modular Arithmetic and other interesting math topics.
 </i><br><b><br>Contest Duration</b> - 3 hours
 <br><b>No. of Problems</b> - 10-12
-<br><b>Date and Time</b> - March 2019
+<br><b>Date and Time</b> - TBA
 <br><b>Contest Link</b> - <a href="index.html">Click Here</a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="http://www.hackerrank.com/soh-cah-toa">Soh Cah Toa 2018</a>
 <br><b>Contact</b> - Priyanshu Varshney (<a href="tel:+91 8770855796" >+91 8770855796</a>)
