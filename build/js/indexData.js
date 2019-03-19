@@ -18,13 +18,7 @@ var app = new Vue({
 var intro = new Vue({
   el: '#intro',
   data: {
-    subtitle: `This generation has seen great programmers like Linus Torvalds and Jeff Dean.
-Talented and hardworking programmers are rising all around the globe. To foster this
-        amazing skill and culture, the Department of Computer Science and Engineering, IIT
-        Indore presents you with - Euristica’19, the annual coding festival of our college.
-        We will be conducting a variety of events ranging from Competitive Programming and
-        Application Development to Cyber Security and Machine Learning.
-        `,
+    subtitle: `This generation has seen great programmers like Linus Torvalds and Jeff Dean. Talented and hardworking programmers are rising all around the globe. To foster this amazing skill and culture, the Department of Computer Science and Engineering, IIT Indore presents you with - Euristica’19, the annual coding festival of our college. Euristica'18 was an immense sucess with participation of around 13K. The second iteration of Euristica will be grander than ever before. We will be conducting a variety of events ranging from Competitive Programming and Application Development to Cyber Security and Machine Learning.`,
     link: "https://goo.gl/forms/6XvZX1oed5u8lfxy1"
   }
 })
