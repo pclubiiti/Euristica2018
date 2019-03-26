@@ -18,7 +18,7 @@ var app = new Vue({
 var intro = new Vue({
   el: '#intro',
   data: {
-    subtitle: `This generation has seen great programmers like Linus Torvalds and Jeff Dean. Talented and hardworking programmers are rising all around the globe. To foster this amazing skill and culture, the Department of Computer Science and Engineering, IIT Indore presents you with - Euristica’19, the annual coding festival of our college. Euristica'18 was an immense sucess with participation of around 13K. The second iteration of Euristica will be grander than ever before. We will be conducting a variety of events ranging from Competitive Programming and Application Development to Cyber Security and Machine Learning.`,
+    subtitle: `This generation has seen great programmers like Linus Torvalds and Jeff Dean. Talented and hardworking programmers are rising all around the globe. To foster this amazing skill and culture, the Department of Computer Science and Engineering, IIT Indore presents you with - Euristica’19, the annual coding festival of our college. Euristica'18 was an immense success with participation of around 13K. The second iteration of Euristica will be grander than ever before. We will be conducting a variety of events ranging from Competitive Programming and Application Development to Cyber Security and Machine Learning.`,
     link: "https://goo.gl/forms/6XvZX1oed5u8lfxy1"
   }
 })
@@ -28,7 +28,7 @@ var events = new Vue({
   data: {
     list: [{
       title: "Divide By Zero 7.0",
-      src: "images/compressed/dbz.png",
+      src: "images/compressed/dividebyzero.png",
       content: `For the Algorithmic Ones !`,
       about: `Our flagship event, a short duration competitive programming contest being held on Codeforces`,
       dt: "TBA",
@@ -53,10 +53,10 @@ var events = new Vue({
     },
     {
       title: "The ThreadBit Showcase",
-      src: "images/compressed/hackathon.png",
+      src: "images/compressed/Hackathon.png",
 
       content: `Where Ideas Morph into Products !`,
-      dt: "TBA",
+      dt: "5th April - 7th April",
       about: " A social coding event to build a new software under the to-be-announced broad themes."
       , longContent: `
       <i>
@@ -66,18 +66,17 @@ var events = new Vue({
       <br><b><br>Contest Duration</b> - 48 hrs
 <br><b>No. of problems</b> - TBA
 <br><b>Max. Team Size</b> - 4 Members
-<br><b>Date</b> - TBA
-<br><b>Time</b> - TBA
+<br><b>Date</b> - 5th April - 7th April
 <br><b>Contest Link</b> - <a href='index.html'>Click Here</a>
 <br><b>Contact</b> - Mrigank Krishan ( <a href="tel:+91 7247521600" >+91 7247521600</a> )
-<br><div> <br>Prizes worth 100k for the winners.</div>
+<br><div> <br>Prizes worth 50k for the winners.</div>
       `
     },
     {
       title: "Capture The Flag",
-      src: "images/compressed/ctf.png",
+      src: "images/compressed/CTF.png",
       content: `Computer’s a Fortress here, can you become the Knight?`,
-      dt: "TBA",
+      dt: "13th April - 14th April",
       about: "A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF team. The team size for the CTF should be a maximum 4 people."
       , longContent: `
    <i>
@@ -85,9 +84,10 @@ A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF
 Cryptography.
 </i>
 <br><b><br>Format</b> - Jeopardy
-<br><b>Contest Duration</b> - 24-48 hrs
+<br><b>Contest Duration</b> - 24 hrs
 <br><b>No. of problems</b> - 15
-<br><b>Date and Time</b> -  TBA
+<br><b>Max. Team Size</b> - 4 Members
+<br><b>Date and Time</b> -  13th April - 14th April
 <br><b>Contest link</b> - <a target="_blank"  href="http://ctf.euristica.in" >Click Here</a>
 <br><b>Contact</b> - <br> Kunal Gupta ( <a href="tel:+91 9971918360" >+91 9971918360</a> ) <br> Bhor Verma ( <a href="tel:+91 81092 09652" >+91 81092 09652</a> )
 <br><div> <br>Prizes worth 50k for the winners. </div>
@@ -95,33 +95,32 @@ Cryptography.
     },
     {
       title: "Cognitia : Machine Learning Codesprint",
-      src: "images/compressed/ml.png",
-
+      src: "images/compressed/machinelearning.png",
       content: `For the Analytical Ones !`,
-      dt: "TBA",
+      dt: "10th April - 11th April",
       about: "This codesprint aims to give the participants the thrilling experience of programming a computer to learn."
       , longContent: `
   <i> Artificial Intelligence(AI) and Analysis will shape our future more powerfully than any other innovation this century. ​Machine learning is an application of Artificial Intelligence in which ​the computer learns for itself how to complete a task​.
 <br>This codesprint aims to give the participants the thrilling experience of Programming a
 Computer to learn. </i><br>
 <br><b>No. of Problems</b> - 2
-<br><b>Date and Time</b> - TBA
+<br><b>Date and Time</b> - 10th April - 11th April
 <br><b>Contest Link - </b><a href="index.html" >Click Here</a>
 <br><b>Contact</b> - <a href="mailto:euristica@iiti.ac.in">euristica@iiti.ac.in</a>
-<br><div> <br>Prizes worth 30k for the winners. </div>
+<br><div> <br>Prizes worth 15k for the winners. </div>
       `
     },
     {
       title: "Code Mélange 5.0",
-      src: "images/compressed/code_melange.png",
+      src: "images/compressed/codemilange.png",
       content: `When algorithms take the centre stage…!`,
-      dt: "TBA",
+      dt: "6th April 9:00pm - 7th April 2:00am",
       about: "A competitive programming contest which will test your logical, analytical and algorithmic skills.",
       longContent: `
   <i>    A competitive programming contest which will test your logical, analytical and algorithmic skills with problems of varying difficulty.</i>
-<br><b><br>Contest Duration</b> - 48-72 hours
+<br><b><br>Contest Duration</b> - 5 hours
 <br><b> No. of Problems</b> - 10-12
-<br><b>Date and Time</b> - TBA
+<br><b>Date and Time</b> - 6th April 9:00pm - 7th April 2:00am
 <br><b>Contest Link - </b><a href="index.html">Click Here</a>
 <br><b>Previous Year Links</b> -
 <br>
@@ -135,28 +134,28 @@ Computer to learn. </i><br>
     },
     {
       title: "Code Golf 5.0",
-      src: "images/compressed/code_golf.png",
+      src: "images/compressed/CodeGolf.png",
 
       content: `Stack or Sort, Code it Short!`,
-      dt: "TBA",
+      dt: "3rd April, 9:00pm-11:00pm",
       about: "A coding contest in which shorter is your code, better is your score.",
       longContent: `
       <i>
       A coding contest in which shorter is your code, better is your score.</i>
-<br><b><br>Contest Duration</b> - 3 hours
+<br><b><br>Contest Duration</b> - 2 hours
 <br><b>No. of Problems</b> - 7-8
-<br><b>Date and Time</b> -TBA
+<br><b>Date and Time</b> - 3rd April, 9:00pm-11:00pm
 <br><b>Contest Link</b> - <a href="index.html"> Click here </a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="https://www.hackerrank.com/code-golf-4">Code Golf 4.0</a> |
 <a target="_blank"  href="https://www.hackerrank.com/fluxus-code-golf" >Code Golf 3.0</a>
 <br><b>Contact</b> - <br>Divyansh Choudhary (<a href="tel:+91 9818652018" >+919818652018</a>)
-<br><div> <br>Prizes worth 12k for the winners </div>
+<br><div> <br>Prizes worth 10k for the winners </div>
       `
     },
     {
       title: "Surprise Language 5.0",
-      src: "images/compressed/surprise_language.png",
-      dt: "TBA",
+      src: "images/compressed/Surpriselanguage.png",
+      dt: "4th April 9:00pm - 5th April 12:00am",
       content: `‘Coz who doesn’t like surprises ?`,
       about: "Ready for something adventurous ? Here we bring a programming contest in which the language will be a secret, revealed only 15 minutes before the contest. We will be releasing a list of languages 3 days before the contest.",
       longContent: `
@@ -165,7 +164,7 @@ Computer to learn. </i><br>
 </i>
       <br><b><br>Contest Duration</b> - 3 Hours.
 <br><b>No. of Problems</b> - 7-8
-<br><b>Date and Time</b> - TBA
+<br><b>Date and Time</b> - 4th April 9:00pm - 5th April 12:00am
 <br><b>Contest Link - </b><a target="_blank" href="index.html" >Click Here</a>
 <br><b>Previous Year Links</b> -
 <a target="_blank"  href="https://www.hackerrank.com/surprise-language-4-0" >SL 2018</a>
@@ -173,15 +172,15 @@ Computer to learn. </i><br>
  | <a target="_blank"  href="https://www.hackerrank.com/surprise-language-2-0" >SL 2016</a>
  | <a target="_blank"  href="https://www.hackerrank.com/surprise-language" >SL 2015</a>
  <br><b>Contact</b> - Dhruv Chadha ( <a href="tel:+91 9910286500" >+91 9910286500</a> )
-<br><div> <br>Prizes worth 12k for the winners </div>
+<br><div> <br>Prizes worth 10k for the winners </div>
       `
     },
     {
       title: "Hack the Code",
-      src: "images/compressed/hack_the_code.png",
+      src: "images/compressed/Hackthecode.png",
 
       content: `Are you a master debugger?`,
-      dt: "TBA",
+      dt: "9th April 9:00pm - 10th April 12:00am",
       about: "A competitive programming contest in which you test your debugging skills by correcting the given code for the failing test case(s). ",
       longContent: `
   <i>
@@ -191,47 +190,47 @@ Computer to learn. </i><br>
 alongside it’s solution(any language), and you’ll have to find a failing case on the solution.  Just output any test case which will fail the code.
 </i><br><b><br>Contest Duration</b> - 3 hours
 <br><b>No. of Problems</b> - 10
-<br><b>Date and Time</b> - TBA
+<br><b>Date and Time</b> - 9th April 9:00pm - 10th April 12:00am
 <br><b>Contest Link - </b><a target="_blank" href="index.html" >Click Here</a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="https://www.hackerrank.com/hack-the-code4">Hack The Code 2018</a>
 <br><b>Contact</b> - Daanish Mahajan ( <a href="tel:+91 8146365803" >+91 8146365803</a> )
-<br><div> <br>Prizes worth 8k for the winners </div>
+<br><div> <br>Prizes worth 11k for the winners </div>
       `
     },
     {
       title: "Fool You!",
-      src: "images/compressed/fool_you.png",
+      src: "images/compressed/Foolyou.png",
 
       content: `There’s nothing more deceptive than an obvious fact!`,
-      dt: "TBA",
+      dt: "1st April 2:00pm-8:00pm",
       about: "A unique programming contest that requires one to think out of the box."
       , longContent: `
   <i>    A unique programming contest, in which thinking for the solution might still be easier than understanding the problem !
-</i><br><b><br>Contest Duration</b> - 5 hours
+</i><br><b><br>Contest Duration</b> - 6 hours
 <br><b>No. of Problems</b> - 6
-<br><b>Date and Time</b> - TBA
+<br><b>Date and Time</b> - 1st April 2:00pm-8:00pm
 <br><b>Contest Link</b> - <a href="index.html" >Click Here</a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="https://www.codechef.com/FOOY2018">Fool You 2018</a>
 <br><b>Contact</b> - Vishnunarayan K I ( <a href="tel:+91 8921799625" >+91 8921799625</a> )
-<br><div> <br>Prizes worth 12k for the winners </div>
+<br><div> <br>Prizes worth 10k for the winners </div>
 `
     },
     {
       title: "SOH CAH TOA",
-      src: "images/compressed/soh_cah_toa.png",
+      src: "images/compressed/Sohcahtoa.png",
 
       content: `Untangle the labyrinthine of Mathematical Programming.`,
-      dt: "TBA",
+      dt: "11th April 9:00pm - 12th April 12:00am",
       about: " A short-duration mathematical programming contest focusing on Number Theory, Probability, Combinatorics, Modular Arithmetic and other interesting math topics."
       , longContent: `
   <i>  A short-duration mathematical programming contest focusing on Number Theory, Probability, Combinatorics, Modular Arithmetic and other interesting math topics.
 </i><br><b><br>Contest Duration</b> - 3 hours
 <br><b>No. of Problems</b> - 10-12
-<br><b>Date and Time</b> - TBA
+<br><b>Date and Time</b> - 11th April 9:00pm - 12th April 12:00am
 <br><b>Contest Link</b> - <a href="index.html">Click Here</a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="http://www.hackerrank.com/soh-cah-toa">Soh Cah Toa 2018</a>
 <br><b>Contact</b> - Priyanshu Varshney (<a href="tel:+91 8770855796" >+91 8770855796</a>)
-<br><div> <br>Prizes worth 15k for the winners </div>
+<br><div> <br>Prizes worth 20k for the winners </div>
       `
     },
     ],
