@@ -202,7 +202,7 @@ alongside it’s solution(any language), and you’ll have to find a failing cas
       src: "images/compressed/Foolyou.png",
 
       content: `There’s nothing more deceptive than an obvious fact!`,
-      dt: "1st April 2:00pm-8:00pm",
+      dt: "1st April 4:00pm-8:00pm",
       about: "A unique programming contest that requires one to think out of the box."
       , longContent: `
   <i>    A unique programming contest, in which thinking for the solution might still be easier than understanding the problem !
