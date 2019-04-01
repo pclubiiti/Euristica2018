@@ -209,7 +209,7 @@ alongside it’s solution(any language), and you’ll have to find a failing cas
 </i><br><b><br>Contest Duration</b> - 6 hours
 <br><b>No. of Problems</b> - 6
 <br><b>Date and Time</b> - 1st April 2:00pm-8:00pm
-<br><b>Contest Link</b> - <a href="index.html" >Click Here</a>
+<br><b>Contest Link</b> - <a href="https://www.codechef.com/FOYO2019" >Click Here</a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="https://www.codechef.com/FOOY2018">Fool You 2018</a>
 <br><b>Contact</b> - Vishnunarayan K I ( <a href="tel:+91 8921799625" >+91 8921799625</a> )
 <br><div> <br>Prizes worth 10k for the winners </div>
