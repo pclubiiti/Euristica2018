@@ -67,7 +67,7 @@ var events = new Vue({
 <br><b>No. of problems</b> - TBA
 <br><b>Max. Team Size</b> - 4 Members
 <br><b>Date</b> - 5th April - 7th April
-<br><b>Contest Link</b> - <a href='index.html'>Click Here</a>
+<br><b>Contest Link</b> - <a href='https://threadbit.hackerearth.com'>Click Here</a>
 <br><b>Contact</b> - Mrigank Krishan ( <a href="tel:+91 7247521600" >+91 7247521600</a> )
 <br><div> <br>Prizes worth 50k for the winners.</div>
       `
@@ -165,7 +165,7 @@ Computer to learn. </i><br>
       <br><b><br>Contest Duration</b> - 3 Hours.
 <br><b>No. of Problems</b> - 7-8
 <br><b>Date and Time</b> - 4th April 9:00pm - 5th April 12:00am
-<br><b>Contest Link - </b><a target="_blank" href="index.html" >Click Here</a>
+<br><b>Contest Link - </b><a target="_blank" href="https://www.hackerrank.com/surprise-language-5-0" >Click Here</a>
 <br><b>Previous Year Links</b> -
 <a target="_blank"  href="https://www.hackerrank.com/surprise-language-4-0" >SL 2018</a>
  | <a target="_blank"  href="https://www.hackerrank.com/surprise-language-3-0" >SL 2017</a>
@@ -191,7 +191,7 @@ alongside it’s solution(any language), and you’ll have to find a failing cas
 </i><br><b><br>Contest Duration</b> - 3 hours
 <br><b>No. of Problems</b> - 10
 <br><b>Date and Time</b> - 9th April 9:00pm - 10th April 12:00am
-<br><b>Contest Link - </b><a target="_blank" href="index.html" >Click Here</a>
+<br><b>Contest Link - </b><a target="_blank" href="https://www.hackerrank.com/hack-the-code-2-0" >Click Here</a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="https://www.hackerrank.com/hack-the-code4">Hack The Code 2018</a>
 <br><b>Contact</b> - Daanish Mahajan ( <a href="tel:+91 8146365803" >+91 8146365803</a> )
 <br><div> <br>Prizes worth 11k for the winners </div>
