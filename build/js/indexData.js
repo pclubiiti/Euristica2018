@@ -137,14 +137,14 @@ Computer to learn. </i><br>
       src: "images/compressed/CodeGolf.png",
 
       content: `Stack or Sort, Code it Short!`,
-      dt: "3rd April, 9:00pm-11:00pm",
+      dt: "8th April, 9:00pm to 9th April, 0:00",
       about: "A coding contest in which shorter is your code, better is your score.",
       longContent: `
       <i>
       A coding contest in which shorter is your code, better is your score.</i>
 <br><b><br>Contest Duration</b> - 2 hours
 <br><b>No. of Problems</b> - 7-8
-<br><b>Date and Time</b> - 3rd April, 9:00pm-11:00pm
+<br><b>Date and Time</b> - 8th April, 9:00pm to 9th April, 0:00
 <br><b>Contest Link</b> - <a href="index.html"> Click here </a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="https://www.hackerrank.com/code-golf-4">Code Golf 4.0</a> |
 <a target="_blank"  href="https://www.hackerrank.com/fluxus-code-golf" >Code Golf 3.0</a>
