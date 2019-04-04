@@ -161,6 +161,9 @@ Computer to learn. </i><br>
       longContent: `
       <i>
       Ready for something adventurous ? Here we bring a programming contest in which the language will be a secret, revealed only 15 minutes before the contest.<br> We will be releasing a list of languages 3 days before the contest.
+      <br> The Languages are announced!<br>
+      1. Lua <br>
+      2. Clojure
 </i>
       <br><b><br>Contest Duration</b> - 3 Hours.
 <br><b>No. of Problems</b> - 7-8
