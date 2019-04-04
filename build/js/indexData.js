@@ -114,13 +114,13 @@ Computer to learn. </i><br>
       title: "Code Mélange 5.0",
       src: "images/compressed/codemilange.png",
       content: `When algorithms take the centre stage…!`,
-      dt: "6th April 9:00pm - 7th April 2:00am",
+      dt: "TBA",
       about: "A competitive programming contest which will test your logical, analytical and algorithmic skills.",
       longContent: `
   <i>    A competitive programming contest which will test your logical, analytical and algorithmic skills with problems of varying difficulty.</i>
 <br><b><br>Contest Duration</b> - 5 hours
 <br><b> No. of Problems</b> - 10-12
-<br><b>Date and Time</b> - 6th April 9:00pm - 7th April 2:00am
+<br><b>Date and Time</b> - TBA
 <br><b>Contest Link - </b><a href="index.html">Click Here</a>
 <br><b>Previous Year Links</b> -
 <br>
