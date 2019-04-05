@@ -68,7 +68,7 @@ var events = new Vue({
 <br><b>Max. Team Size</b> - 4 Members
 <br><b>Date</b> - 5th April - 7th April
 <br><b>Contest Link</b> - <a href='https://threadbit.hackerearth.com'>Click Here</a>
-<br><b>Contact</b> - Mrigank Krishan ( <a href="tel:+91 7247521600" >+91 7247521600</a> )
+<br><b>Contact</b> - Kanishkar J <a href="tel:+91 9902847087" >+91 7247521600</a> )
 <br><div> <br>Prizes worth 50k for the winners.</div>
       `
     },
