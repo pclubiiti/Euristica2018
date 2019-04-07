@@ -145,7 +145,7 @@ Computer to learn. </i><br>
 <br><b><br>Contest Duration</b> - 2 hours
 <br><b>No. of Problems</b> - 7-8
 <br><b>Date and Time</b> - 8th April, 9:00pm to 9th April, 0:00
-<br><b>Contest Link</b> - <a href="index.html"> Click here </a>
+<br><b>Contest Link</b> - <a href="https://www.hackerrank.com/code-golf-5-0"> Click here </a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="https://www.hackerrank.com/code-golf-4">Code Golf 4.0</a> |
 <a target="_blank"  href="https://www.hackerrank.com/fluxus-code-golf" >Code Golf 3.0</a>
 <br><b>Contact</b> - <br>Divyansh Choudhary (<a href="tel:+91 9818652018" >+919818652018</a>)
@@ -223,13 +223,13 @@ alongside it’s solution(any language), and you’ll have to find a failing cas
       src: "images/compressed/Sohcahtoa.png",
 
       content: `Untangle the labyrinthine of Mathematical Programming.`,
-      dt: "11th April 9:00pm - 12th April 12:00am",
+      dt: "TBA",
       about: " A short-duration mathematical programming contest focusing on Number Theory, Probability, Combinatorics, Modular Arithmetic and other interesting math topics."
       , longContent: `
   <i>  A short-duration mathematical programming contest focusing on Number Theory, Probability, Combinatorics, Modular Arithmetic and other interesting math topics.
 </i><br><b><br>Contest Duration</b> - 3 hours
 <br><b>No. of Problems</b> - 10-12
-<br><b>Date and Time</b> - 11th April 9:00pm - 12th April 12:00am
+<br><b>Date and Time</b> - TBA
 <br><b>Contest Link</b> - <a href="index.html">Click Here</a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="http://www.hackerrank.com/soh-cah-toa">Soh Cah Toa 2018</a>
 <br><b>Contact</b> - Priyanshu Varshney (<a href="tel:+91 8770855796" >+91 8770855796</a>)
