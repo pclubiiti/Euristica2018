@@ -114,13 +114,13 @@ Computer to learn. </i><br>
       title: "Code Mélange 5.0",
       src: "images/compressed/codemilange.png",
       content: `When algorithms take the centre stage…!`,
-      dt: "12th April, 9:00pm to 13th April, 01:00am",
+      dt: "14th April, 9:00pm to 15th April, 01:00am",
       about: "A competitive programming contest which will test your logical, analytical and algorithmic skills.",
       longContent: `
   <i>    A competitive programming contest which will test your logical, analytical and algorithmic skills with problems of varying difficulty.</i>
 <br><b><br>Contest Duration</b> - 4 hours
 <br><b> No. of Problems</b> - 10-12
-<br><b>Date and Time</b> - 12th April, 9:00pm to 13th April, 01:00am
+<br><b>Date and Time</b> - 14th April, 9:00pm to 15th April, 01:00am
 <br><b>Contest Link - </b><a href="index.html">Click Here</a>
 <br><b>Previous Year Links</b> -
 <br>
@@ -183,7 +183,7 @@ Computer to learn. </i><br>
       src: "images/compressed/Hackthecode.png",
 
       content: `Are you a master debugger?`,
-      dt: "13th April 9:00pm - 14th April 12:00am",
+      dt: "12th April 9:00pm - 13th April 12:00am",
       about: "A competitive programming contest in which you test your debugging skills by correcting the given code for the failing test case(s). ",
       longContent: `
   <i>
@@ -193,7 +193,7 @@ Computer to learn. </i><br>
 alongside it’s solution(any language), and you’ll have to find a failing case on the solution.  Just output any test case which will fail the code.
 </i><br><b><br>Contest Duration</b> - 3 hours
 <br><b>No. of Problems</b> - 10
-<br><b>Date and Time</b> - 13th April 9:00pm - 14th April 12:00am
+<br><b>Date and Time</b> - 12th April 9:00pm - 13th April 12:00am
 <br><b>Contest Link - </b><a target="_blank" href="https://www.hackerrank.com/hack-the-code-2-0" >Click Here</a>
 <br><b>Previous Year Links</b> - <a target="_blank" href="https://www.hackerrank.com/hack-the-code4">Hack The Code 2018</a>
 <br><b>Contact</b> - Daanish Mahajan ( <a href="tel:+91 8146365803" >+91 8146365803</a> )
