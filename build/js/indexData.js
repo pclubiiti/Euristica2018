@@ -97,15 +97,15 @@ Cryptography.
       title: "Cognitia : Machine Learning Codesprint",
       src: "images/compressed/machinelearning.png",
       content: `For the Analytical Ones !`,
-      dt: "10th April - 11th April",
+      dt: "11 April, 12:00AM to 13 April, 12:00 AM",
       about: "This codesprint aims to give the participants the thrilling experience of programming a computer to learn."
       , longContent: `
   <i> Artificial Intelligence(AI) and Analysis will shape our future more powerfully than any other innovation this century. ​Machine learning is an application of Artificial Intelligence in which ​the computer learns for itself how to complete a task​.
 <br>This codesprint aims to give the participants the thrilling experience of Programming a
 Computer to learn. </i><br>
 <br><b>No. of Problems</b> - 2
-<br><b>Date and Time</b> - 10th April - 11th April
-<br><b>Contest Link - </b><a href="index.html" >Click Here</a>
+<br><b>Date and Time</b> - 11 April, 12:00AM to 13 April, 12:00 AM
+<br><b>Contest Link - </b><a href="https://www.hackerearth.com/challenges/college/cognitia19/" >Click Here</a>
 <br><b>Contact</b> - <a href="mailto:euristica@iiti.ac.in">euristica@iiti.ac.in</a>
 <br><div> <br>Prizes worth 15k for the winners. </div>
       `
