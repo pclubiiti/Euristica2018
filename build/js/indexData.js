@@ -76,7 +76,7 @@ var events = new Vue({
       title: "Capture The Flag",
       src: "images/compressed/CTF.png",
       content: `Computer’s a Fortress here, can you become the Knight?`,
-      dt: "12th April,21:00 to 14th April,21:00",
+      dt: "12th April,21:00 to 13th April,21:00",
       about: "A Capture the Flag Competition held by Byte Bandits, IIT Indore’s academic CTF team. The team size for the CTF should be a maximum 4 people."
       , longContent: `
    <i>
@@ -87,7 +87,7 @@ Cryptography.
 <br><b>Contest Duration</b> - 24 hrs
 <br><b>No. of problems</b> - 15
 <br><b>Max. Team Size</b> - 4 Members
-<br><b>Date and Time</b> -  12th April,21:00 to 14th April,21:00
+<br><b>Date and Time</b> -  12th April,21:00 to 13th April,21:00
 <br><b>Contest link</b> - <a target="_blank"  href="http://ctf.euristica.in" >Click Here</a>
 <br><b>Contact</b> - <br> Kunal Gupta ( <a href="tel:+91 9971918360" >+91 9971918360</a> ) <br> Bhor Verma ( <a href="tel:+91 81092 09652" >+91 81092 09652</a> )
 <br><div> <br>Prizes worth 50k for the winners. </div>
