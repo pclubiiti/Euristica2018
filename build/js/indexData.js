@@ -118,10 +118,11 @@ Computer to learn. </i><br>
       about: "A competitive programming contest which will test your logical, analytical and algorithmic skills.",
       longContent: `
   <i>    A competitive programming contest which will test your logical, analytical and algorithmic skills with problems of varying difficulty.</i>
+<br> The Contest is Rated for All !!
 <br><b><br>Contest Duration</b> - 4 hours
 <br><b> No. of Problems</b> - 10-12
 <br><b>Date and Time</b> - 14th April, 9:00pm to 15th April, 01:00am
-<br><b>Contest Link - </b><a href="index.html">Click Here</a>
+<br><b>Contest Link - </b><a href="https://www.codechef.com/COME2019">Click Here</a>
 <br><b>Previous Year Links</b> -
 <br>
 <a target="_blank"  href="https://www.codechef.com/CMEL2018" >Code Mélange 2018</a> |
